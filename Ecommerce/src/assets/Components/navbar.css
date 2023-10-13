@@ -1021,11 +1021,11 @@ button{
   text-align: center;
   font-size: 16px;
 }
-.shop-hero-2{
+.wrapper{
   position: relative;
 }
 .shop-hero-2-product-slide-2 {
-  position: absolute;
+  /* position: relative; */
   top: 0;
   left: calc(50% - 720px);
   background-color: #23856d;
@@ -1123,8 +1123,8 @@ button{
   gap: 30px;
 }
 .container5 {
-  position: absolute;
-  top: 0;
+  /* position: relative; */
+  /* top: 0; */
   left: calc(50% - 511px);
   width: 1036px;
   height: 711px;
@@ -1135,7 +1135,7 @@ button{
 }
 .carousel-inner1,
 .carousel-item1 {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   width: 1440px;

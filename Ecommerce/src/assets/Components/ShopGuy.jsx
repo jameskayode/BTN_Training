@@ -3,8 +3,8 @@ import './navbar.css'
 import shopguy from '../../assets/images/shopg.png'
 const ShopGuy = () => {
   return (
-    <div className="shop-hero-2">
-       <div className="shop-hero-2-product-slide-2" />
+<div className='wrapper'>
+  <div className="shop-hero-2-product-slide-2" />
                 <div className="container5">
                   <div className="row8">
                     <div className="col-md-61">
@@ -45,8 +45,8 @@ const ShopGuy = () => {
               alt=""
               src="/src/assets/images/chevron-left.svg"
             />
-              </div>
-
+            
+      </div>
   ) 
 }
 
