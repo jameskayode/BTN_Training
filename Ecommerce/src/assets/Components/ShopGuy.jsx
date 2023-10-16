@@ -1,53 +1,52 @@
+import "./shopguy.css";
+import {MdArrowBackIosNew, MdArrowForwardIos} from 'react-icons/md'
+import Shopguy from '../../assets/images/shopg.png'
 
-import './navbar.css'
-import shopguy from '../../assets/images/shopg.png'
 const ShopGuy = () => {
   return (
-<div className='wrapper'>
-  <div className="shop-hero-2-product-slide-2" />
-                <div className="container5">
-                  <div className="row8">
-                    <div className="col-md-61">
-                      <div className="h2-section-title">SUMMER 2020</div>
-                      <div className="h1-headline4">Vita Classic Product</div>
-                      <div className="h41">
-                        We know how large objects will act, We know how are objects
-                        will act, We know
-                      </div>
-                      <div className="cta1">
-                        <b className="h3">$16.48</b>
-                       
-                          <button className="btn-text button-md">ADD TO CART</button>
-                        
-                      </div>
-                    </div>
-                    <div className="col-md-62">
-                      <img
-                        className="shop-hero-2-png-picture-1-icon"
-                        alt=""
-                        src={shopguy}
-                      />
-                    </div>
-                  </div>
+    <div className="carousel-2">
+      {/* <div className="carousel-inner1">
+        <div className="carousel-item1"> */}
+          <div className="shop-hero-2-product-slide-2" />
+          <div className="container6">
+            <div className="row8">
+              <div className="col-md-61">
+                <div className="h55">SUMMER 2020</div>
+                <b className="h1-headline4">Vita Classic Product</b>
+                <div className="h41">
+                  We know how large objects will act, We know how are objects
+                  will act, We know
                 </div>
-                <div className="carousel-indicators1">
-              <div className="carouselcaptions" />
-              <div className="carouselcaptions1" />
+                <div className="cta1">
+                  <span className="h5-price8">$16.48</span>
+                  <button className="button-md btn-text3">
+                    ADD TO CART
+                  </button>
+                </div>
+              </div>
+              <div className="col-md-62">
+                <img
+                  className="shop-hero-2-png-picture-1-icon"
+                  alt=""
+                  src={Shopguy}
+
+                />
+              </div>
             </div>
-
-            <img
-              className="carousel-control-next-icon1"
-              alt=""
-              src="/src/assets/images/chevron-right.svg"
-            />
-            <img
-              className="carousel-control-prev-icon1"
-              alt=""
-              src="/src/assets/images/chevron-left.svg"
-            />
-            
+          {/* </div>
+        </div> */}
       </div>
-  ) 
-}
 
-export default ShopGuy
+
+
+      <div className="carousel-indicators1">
+        <div className="carouselcaptions2" />
+        <div className="carouselcaptions3" />
+      </div>
+      <MdArrowForwardIos className="carousel-control-next-icon1"/>
+      <MdArrowBackIosNew className="carousel-control-prev-icon1"/>
+    </div>
+  );
+};
+
+export default ShopGuy;

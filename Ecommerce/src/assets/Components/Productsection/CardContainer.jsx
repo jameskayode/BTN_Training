@@ -10,7 +10,7 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-      column: 35,
+     
     },
     {
       imageUrl: '/src/assets/images/P2.png',
@@ -19,7 +19,7 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-      column: 36,
+     
     },
     {
       imageUrl: '/src/assets/images/P3.png',
@@ -28,7 +28,7 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-      column: 37,
+     
     },
     {
       imageUrl: '/src/assets/images/P4.png',
@@ -37,7 +37,8 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-      column: 38,
+     
+      fruit:"Banana"
     },
     {
       imageUrl: '/src/assets/images/P5.png',
@@ -46,7 +47,7 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-      column: 38,
+      
     },
     {
       imageUrl: '/src/assets/images/P6.png',
@@ -55,7 +56,7 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-      column: 38,
+  
     },
     {
       imageUrl: '/src/assets/images/P7.png',
@@ -64,7 +65,8 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-      column: 38,
+      
+      fruit:"Banana"
     },
     {
       imageUrl: '/src/assets/images/P8.png',
@@ -73,7 +75,8 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-      column: 38,
+     
+      fruit:"Mango"
     },
     {
       imageUrl: '/src/assets/images/P9.png',
@@ -82,7 +85,7 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-      column: 38,
+     
     },
     {
       imageUrl: '/src/assets/images/P10.png',
@@ -91,7 +94,8 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-      column: 38,
+    
+      fruit:"Pinapple"
     },
     {
       imageUrl: '/src/assets/images/P11.png',
@@ -100,7 +104,7 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-      column: 38,
+      
     },
     {
       imageUrl: '/src/assets/images/P12.png',
@@ -109,10 +113,10 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-      column: 38,
+     
     },
     
-    // Add data for other cards as needed
+  
   ];
 
   const renderProductCardRow = (start, end) => {
@@ -129,6 +133,10 @@ const ParentComponent = () => {
             {renderProductCardRow(rowIndex * 4, (rowIndex + 1) * 4)}
           </div>
         ))}
+
+
+
+        {/* pagination section */}
         <div className="pagination">
           <div className="ul">
             <div className="prev">

@@ -26,6 +26,7 @@ const divData = {
   },
 };
 
+
 const NewFooter = () => {
   return (
     <div className="div">

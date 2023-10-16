@@ -1,6 +1,6 @@
-// import React from "react";
+
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
-import './navbar.css'; // Import your CSS file
+import './navbar.css'; 
 
 const footerData = {
   companyInfo: {

@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types';
 import './client.css';
 
-const ProductCard = ({ imageUrl, title, category, price, discountPrice, colors, column }) => {
+const ProductCard = ({ imageUrl, title, category, price, discountPrice, colors, column, fruit }) => {
   return (
     <div className={`col-md-${column}`}>
       <div className="product-card">
@@ -20,7 +20,12 @@ const ProductCard = ({ imageUrl, title, category, price, discountPrice, colors, 
             {colors.map((color, index) => (
               <div key={index} className="product-colors-item" style={{ backgroundColor: color }} />
             ))}
+
           </div>
+          {/* {
+            fruit==="Banana"  ? <p>Banana is healthy</p> : fruit==="Mango" ? <p>Eat belleful</p>: <p>Eat anything else</p> 
+            
+          } */}
         </div>
       </div>
     </div>
@@ -34,7 +39,8 @@ ProductCard.propTypes = {
   price: PropTypes.number.isRequired,
   discountPrice: PropTypes.number.isRequired,
   colors: PropTypes.arrayOf(PropTypes.string).isRequired,
-  column: PropTypes.number.isRequired,
+  // column: PropTypes.number.isRequired,
+  fruit: PropTypes.string.isRequired
 };
 
 export default ProductCard;
