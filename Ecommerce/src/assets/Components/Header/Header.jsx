@@ -1,17 +1,18 @@
 
 // import React from 'react'
 import Navbar from './Navbar'
-import MobileNav from './MobileNav'
+// import MobileNav from './MobileNav'
 
 
-function isMobile() {
-    return window.innerWidth < 768; 
-  }
+// function isMobile() {
+//     return window.innerWidth < 768; 
+//   }
   
 const Header = () => {
   return (
     <>
-     {isMobile() ? <MobileNav /> : <Navbar />}
+     {/* {isMobile() ? <MobileNav /> : <Navbar />} */}
+    <Navbar/>
     </>
   )
 }

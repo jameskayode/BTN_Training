@@ -17,14 +17,8 @@ const Container = () => {
               <div className="row4">
                 <div className="col-md-6">
                   <div className="card-item">
-                    {/* <div className="media-bg-cover"> */}
-                      {/* <img
-                        className="hero-cover2-icon"
-                        alt=""
-                        src="/cardcover20@2x.png"
-                      /> */}
+                   
                       <img className="filter-icon" alt="" src="/src/assets/images/a1.svg" />
-                    {/* </div> */}
                     <div className="card-content">
                       <b className="h2">MEN</b>
                     </div>

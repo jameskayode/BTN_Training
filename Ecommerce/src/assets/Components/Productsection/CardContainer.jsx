@@ -1,7 +1,7 @@
 // import React from 'react';
 import ProductCard from './Card';
 
-const ParentComponent = () => {
+const CardContainer = () => {
   const productData = [
     {
       imageUrl: '/src/assets/images/P1.png',
@@ -10,6 +10,7 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
+      column:35
      
     },
     {
@@ -19,7 +20,7 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-     
+     column:36
     },
     {
       imageUrl: '/src/assets/images/P3.png',
@@ -28,7 +29,7 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-     
+      column:37
     },
     {
       imageUrl: '/src/assets/images/P4.png',
@@ -37,7 +38,7 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-     
+      column:38,
       fruit:"Banana"
     },
     {
@@ -47,7 +48,7 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-      
+      column:35
     },
     {
       imageUrl: '/src/assets/images/P6.png',
@@ -56,7 +57,7 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-  
+      column:36
     },
     {
       imageUrl: '/src/assets/images/P7.png',
@@ -65,7 +66,7 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-      
+      column:37,
       fruit:"Banana"
     },
     {
@@ -75,9 +76,10 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-     
+      column:38,
       fruit:"Mango"
     },
+
     {
       imageUrl: '/src/assets/images/P9.png',
       title: 'Graphic Design',
@@ -85,7 +87,7 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-     
+      column:35
     },
     {
       imageUrl: '/src/assets/images/P10.png',
@@ -94,7 +96,7 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-    
+      column:36,
       fruit:"Pinapple"
     },
     {
@@ -104,7 +106,7 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-      
+      column:37
     },
     {
       imageUrl: '/src/assets/images/P12.png',
@@ -113,7 +115,7 @@ const ParentComponent = () => {
       price: 16.48,
       discountPrice: 6.48,
       colors: ['red', 'green', 'blue'],
-     
+     column:38
     },
     
   
@@ -136,7 +138,7 @@ const ParentComponent = () => {
 
 
 
-        {/* pagination section */}
+        {/* My pagination section */}
         <div className="pagination">
           <div className="ul">
             <div className="prev">
@@ -161,4 +163,4 @@ const ParentComponent = () => {
   );
 };
 
-export default ParentComponent;
+export default CardContainer;

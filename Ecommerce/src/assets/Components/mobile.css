@@ -775,7 +775,7 @@
           .div2,
           .div3,
           .prev {
-            overflow: hidden;
+            /* overflow: hidden; */
             align-items: center;
             justify-content: center;
           }
@@ -789,8 +789,8 @@
           }
           .div2,
           .div3 {
-            border: 1px solid #e9e9e9;
-            padding: 25px 20px;
+            /* border: 1px solid #e9e9e9; */
+            padding: 0px 10px;
           }
           .div2 {
             background-color: #fff;
@@ -798,8 +798,8 @@
             flex-direction: row;
           }
           .div3 {
-            background-color: #23a6f0;
-            color: #fff;
+            background-color: #fff;
+            color:#23a6f0;
           }
           .div3,
           .next,

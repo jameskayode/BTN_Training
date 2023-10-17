@@ -1,0 +1,196 @@
+.col-md-6-icon {
+    position: relative;
+    width: 510px;
+    height: 550px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .h4 {
+    position: absolute;
+    top: 11px;
+    left: 24px;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+  }
+  .icn-bxs-star-icon {
+    position: relative;
+    width: 22.01px;
+    height: 22.01px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .stars {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5px;
+  }
+  .h65 {
+    position: relative;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+  }
+  .h59,
+  .stars-parent {
+    position: absolute;
+    left: 24px;
+  }
+  .stars-parent {
+    top: 53px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    color: #737373;
+  }
+  .h59 {
+    top: 97px;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    line-height: 32px;
+    text-align: center;
+  }
+  .h67 {
+    position: relative;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    color: #23a6f0;
+  }
+  .div12 {
+    position: absolute;
+    top: 134px;
+    left: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    color: #737373;
+  }
+  .met-minim-mollie {
+    margin: 0;
+  }
+  .hr1,
+  .paragraph {
+    position: absolute;
+  }
+  .paragraph {
+    top: 190px;
+    left: 24px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    color: #858585;
+  }
+  .hr1 {
+    top: 276.5px;
+    left: 24.5px;
+    border-top: 1px solid #bdbdbd;
+    box-sizing: border-box;
+    width: 446px;
+    height: 1px;
+  }
+  .ellipse-div,
+  .product-colors-child,
+  .product-colors-inner,
+  .product-colors-item {
+    position: relative;
+    border-radius: 50%;
+    background-color: #23a6f0;
+    width: 30px;
+    height: 30px;
+  }
+  .ellipse-div,
+  .product-colors-inner,
+  .product-colors-item {
+    background-color: #2dc071;
+  }
+  .ellipse-div,
+  .product-colors-inner {
+    background-color: #e77c40;
+  }
+  .ellipse-div {
+    background-color: #252b42;
+  }
+  .btnprimary-colorbtn-sm,
+  .product-colors {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .product-colors {
+    position: absolute;
+    top: 306px;
+    left: 24px;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .btnprimary-colorbtn-sm {
+    border-radius: 5px;
+    background-color: #23a6f0;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+  .like-icon {
+    position: relative;
+    border-radius: 44.79px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .product-actions {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    text-align: center;
+    color: #fff;
+  }
+  .col-md-61 {
+    position: relative;
+    width: 510px;
+    height: 471px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .container6,
+  .row6 {
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .row6 {
+    flex-direction: row;
+    gap: 30px;
+  }
+  .container6 {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 525px);
+    flex-direction: column;
+    padding: 0 0 48px;
+  }
+  .desktop-product-cards-42 {
+    align-self: stretch;
+    position: relative;
+    background-color: #fafafa;
+    height: 598px;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 14px;
+    color: #252b42;
+    font-family: Montserrat;
+  }
+  

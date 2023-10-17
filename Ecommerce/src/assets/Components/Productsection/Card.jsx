@@ -39,8 +39,8 @@ ProductCard.propTypes = {
   price: PropTypes.number.isRequired,
   discountPrice: PropTypes.number.isRequired,
   colors: PropTypes.arrayOf(PropTypes.string).isRequired,
-  // column: PropTypes.number.isRequired,
-  fruit: PropTypes.string.isRequired
+  column: PropTypes.number.isRequired,
+  // fruit: PropTypes.string.isRequired
 };
 
 export default ProductCard;

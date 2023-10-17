@@ -1,4 +1,6 @@
 import "../../Components/mobile.css";
+import { FaHeart, FaSearch, FaShoppingCart, FaUser, FaHamburger } from "react-icons/fa";
+
 
 const MobileNav = () => {
   return (
@@ -6,7 +8,7 @@ const MobileNav = () => {
       <div className="navbar-brand">
         <div className="bandage">Bandage</div>
       </div>
-      <img className="icn-menu-icn-xs" alt="" src="/icn-menu-icnxs.svg" />
+      <FaHamburger className="icn-menu-icn-xs"/>
       <div className="navbar-nav">
         <div className="mobile-menu">Home</div>
         <div className="login-register">Shop</div>
@@ -19,11 +21,8 @@ const MobileNav = () => {
         <div className="li">
           <div className="a">
             <div className="btn-32">
-              <img
-                className="icn-settings-icn-xs"
-                alt=""
-                src="/icn-settings-icnxs.svg"
-              />
+              <FaUser className="icn-settings-icn-xs" />
+             
               <div className="login-register">Login / Register</div>
             </div>
           </div>
@@ -31,21 +30,14 @@ const MobileNav = () => {
         <div className="li1">
           <div className="a1">
             <div className="btn-321">
-              <img
-                className="icn-settings-icn-xs1"
-                alt=""
-                src="/icn-settings-icnxs1.svg"
-              />
+              <FaSearch className="icn-settings-icn-xs1" />
             </div>
           </div>
         </div>
         <div className="li2">
           <div className="a2">
             <div className="btn-32">
-              <img className="icn-settings-icn-xs2"
-                alt=""
-                src="/icn-settings-icnxs2.svg"
-              />
+              <FaShoppingCart className="icn-settings-icn-xs2" />
               <div className="div3">1</div>
             </div>
           </div>
@@ -53,11 +45,8 @@ const MobileNav = () => {
         <div className="li3">
           <div className="a3">
             <div className="btn-32">
-              <img
-                className="icn-settings-icn-xs3"
-                alt=""
-                src="/icn-settings-icnxs3.svg"
-              />
+              <FaHeart className="icn-settings-icn-xs3" />
+              
               <div className="div3">1</div>
             </div>
           </div>

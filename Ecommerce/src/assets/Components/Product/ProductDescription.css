@@ -1,0 +1,243 @@
+.unsplashqanof9ijlfs {
+    position: absolute;
+    top: 0;
+    left: 3px;
+    border-radius: 5.62px;
+    background-color: rgba(196, 196, 196, 0.2);
+    width: 325px;
+    height: 382px;
+  }
+  .unsplashqanof9ijlfs-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5.39px;
+    width: 316px;
+    height: 372px;
+    object-fit: cover;
+  }
+  .card-item,
+  .col-md-44 {
+    height: 392px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .card-item {
+    position: relative;
+    border-radius: 9px;
+    width: 337px;
+  }
+  .col-md-44 {
+    width: 332px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .h510 {
+    position: relative;
+    letter-spacing: 0.1px;
+    line-height: 32px;
+  }
+  .blank-line {
+    margin: 0;
+  }
+  .h69 {
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    color: #737373;
+    display: inline-block;
+    width: 332px;
+  }
+  .card-item1,
+  .col-md-45 {
+    width: 332px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .card-item1 {
+    border-radius: 9px;
+    padding: 0 0 25px;
+    box-sizing: border-box;
+    gap: 30px;
+  }
+  .col-md-45 {
+    flex-shrink: 0;
+  }
+  .icn-arrow-right-icn-xs1 {
+    position: relative;
+    width: 9px;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .h512 {
+    position: relative;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+  }
+  .list-row {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .card-item2,
+  .card-item3,
+  .list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    color: #737373;
+  }
+  .card-item2,
+  .card-item3 {
+    border-radius: 9px;
+    width: 332px;
+    overflow: hidden;
+    gap: 30px;
+  }
+  .card-item2 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .card-item3 {
+    padding: 25px 0 0;
+    box-sizing: border-box;
+  }
+  .card-item3,
+  .container7,
+  .div13,
+  .row7 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .row7 {
+    width: 1056px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .container7,
+  .div13 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container7 {
+    padding: 24px 0 48px;
+  }
+  .div13 {
+    position: absolute;
+    top: 108px;
+    left: calc(50% - 720px);
+    width: 1440px;
+  }
+  .description {
+    position: relative;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+  .a13,
+  .li10,
+  .li9 {
+    position: absolute;
+    top: 0;
+  }
+  .a13 {
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .li10,
+  .li9 {
+    left: 280px;
+    width: 134px;
+    height: 72px;
+  }
+  .li10 {
+    left: 414px;
+    width: 220px;
+  }
+  .link48 {
+    position: relative;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    color: #23856d;
+  }
+  .a15,
+  .li11,
+  .nav {
+    position: absolute;
+    top: 0;
+  }
+  .a15 {
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    gap: 8px;
+  }
+  .li11,
+  .nav {
+    left: 631px;
+    width: 138px;
+    height: 72px;
+  }
+  .nav {
+    top: 10px;
+    left: 193px;
+    width: 1051px;
+    overflow: hidden;
+  }
+  .navbar-style-3-navbar-light-child {
+    position: absolute;
+    top: 85.5px;
+    left: 194.5px;
+    border-top: 1px solid #ececec;
+    box-sizing: border-box;
+    width: 1050px;
+    height: 1px;
+  }
+  .navbar-style-3-navbar-light {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 720px);
+    background-color: #fff;
+    width: 1440px;
+    height: 91px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 14px;
+    color: #737373;
+  }
+  .desktop-product-description-1 {
+    align-self: stretch;
+    position: relative;
+    background-color: #fff;
+    height: 572px;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 24px;
+    color: #252b42;
+    font-family: Montserrat;
+  }
+  

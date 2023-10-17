@@ -1,18 +1,19 @@
 
-import Navbar from '../assets/Components/Navbar'
-// import Footer from '../assets/Components/Footer'
-// import FirstSection from '../assets/Components/Productsection/FirstSection'
-// import ParentComponent from '../assets/Components/Productsection/CardContainer'
+import Navbar from '../assets/Components/Header/Navbar'
+import FirstSection from '../assets/Components/Productsection/FirstSection'
+import CardContainer from '../assets/Components/Productsection/CardContainer'
+import NewClient from '../assets/Components/Productsection/NewClient'
+import NewFooter from '../assets/Components/Footer/NewFooter'
+
 
 const ProductListPage = () => {
   return (
     <>
       <Navbar/>
-      {/* <FirstSection/>
-
-      <ParentComponent/> 
-        
-      <Footer/> */}
+        <FirstSection/>
+        <CardContainer/>
+        <NewClient/>
+         <NewFooter/>
     </>
   )
 }

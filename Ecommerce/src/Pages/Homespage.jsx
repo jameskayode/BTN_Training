@@ -1,28 +1,26 @@
 
-import Desktop from '../assets/Components/Desktop'
-import Container from '../assets/Components/Container'
-import ProductCard from '../assets/Components/ProductCard'
-import ProductPopular from '../assets/Components/ProductPopular'
-import ProductBest from "../assets/Components/ProductBest"
-//  import Footer from "../assets/Components/Footer"
-import Navbar from '../assets/Components/Navbar'
-import ShopGuy from '../assets/Components/ShopGuy'
-import NewFooter from '../assets/Components/Footer/NewFooter'
+import Header from "../assets/Components/Header/Header"
+import Desktop from "../assets/Components/Desktop"
+import Container from "../assets/Components/Container"
+import CardContainer from "../assets/Components/Productsection/CardContainer"
+import ShopGuy from "../assets/Components/ShopGuy"
+import ProductPopular from "../assets/Components/ProductPopular"
 
+import NewClient from "../assets/Components/Productsection/NewClient"
+import NewFooter from "../assets/Components/Footer/NewFooter"
 const Homespage = () => {
   return (
     <>
-    <Navbar/>   
+  
+    
+    <Header/>
      <Desktop/>
-       <Container/>
-       <ProductCard/>
-        <ShopGuy/>
-        <ProductPopular/> 
-        <ProductBest/> 
-          <NewFooter/>
-    
-    
-    
+    <Container/> 
+    <CardContainer/>
+    <ShopGuy/>
+    <ProductPopular/>
+    <NewClient/>
+      <NewFooter/>
     </>
   )
 }
