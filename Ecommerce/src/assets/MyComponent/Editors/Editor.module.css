@@ -1,0 +1,203 @@
+.h2FeatureSection1,
+.paragraph {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+}
+.paragraph {
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  color: #737373;
+  text-align: center;
+}
+.mainContent {
+  gap: 10px;
+}
+.mainContent,
+.row {
+  width: 607px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cardCover20Icon {
+  width: 100%;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cardCover20Icon,
+.filterIcon,
+.mediaBgCover {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.filterIcon {
+  width: calc(100% - 1px);
+  left: 1px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.mediaBgCover {
+  width: 100%;
+  left: 0;
+}
+.h2 {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 21px);
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.cardContent,
+.cardItem {
+  position: absolute;
+  background-color: #fff;
+  overflow: hidden;
+}
+.cardContent {
+  width: calc(100% - 340px);
+  right: 309px;
+  bottom: 26px;
+  left: 31px;
+  height: 48px;
+}
+.cardItem {
+  top: 0;
+  left: 0;
+  width: 510px;
+  height: 500px;
+}
+.colMd6,
+.h21 {
+  position: relative;
+}
+.colMd6 {
+  width: 510px;
+  height: 500px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.h21 {
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.cardContent1 {
+  position: absolute;
+  width: calc(100% - 104px);
+  right: 83px;
+  bottom: 18px;
+  left: 21px;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 48px;
+  box-sizing: border-box;
+}
+.cardItem1,
+.colMd3 {
+  width: 240px;
+  height: 500px;
+  overflow: hidden;
+}
+.cardItem1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+.colMd3 {
+  position: relative;
+  flex-shrink: 0;
+}
+.cardContent2 {
+  position: absolute;
+  width: calc(100% - 70px);
+  right: 56px;
+  bottom: 23px;
+  left: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 26px;
+  box-sizing: border-box;
+}
+.cardContent2,
+.cardContent3,
+.cardItem2 {
+  background-color: #fff;
+  overflow: hidden;
+}
+.cardItem2 {
+  position: relative;
+  width: 240px;
+  height: 242px;
+  flex-shrink: 0;
+}
+.cardContent3 {
+  position: absolute;
+  width: calc(100% - 120px);
+  right: 102px;
+  bottom: 18px;
+  left: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 40px;
+  box-sizing: border-box;
+}
+.colMd31 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.colMd31,
+.container,
+.row1 {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.row1 {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+.container {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 525px);
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+  gap: 48px;
+}
+.desktopShopCards31 {
+  /* align-self: stretch; */
+  margin-top: 800px;
+  position: relative;
+  background-color: #fafafa;
+  height: 770px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 24px;
+  color: #252b42;
+  font-family: Montserrat;
+}

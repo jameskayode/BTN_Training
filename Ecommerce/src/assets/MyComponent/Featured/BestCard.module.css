@@ -1,0 +1,236 @@
+.desktopBlog3 {
+    position: relative;
+    background-color: #fff;
+    width: 1440px;
+    height: 1044px;
+    text-align: center;
+    color: #23a6f0;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .container6 {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 525px);
+    width: 1050px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 112px 0;
+    box-sizing: border-box;
+    gap: 80px;
+  }
+  .row {
+    width: 1438px;
+    justify-content: space-between;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .mainContent1 {
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  gap: 10px;
+  margin-left:400px;
+}
+.loginRegister {
+    position: relative;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+  }
+  .h1Headline {
+  position: relative;
+  font-size: 40px;
+  letter-spacing: 0.2px;
+  line-height: 50px;
+  color: #252b42;
+}
+.paragraph2 {
+    position: relative;
+    color: #737373;
+    max-width: 450px;
+  }
+  .row11 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    color: #fff;
+  }
+  .col-md-44{
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 328px;
+  align-items: center;
+  }
+
+  /* Best cards */
+  .contentCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 348px;
+    overflow: hidden;
+    align-items: flex-start;
+  }
+
+.fixedHeight8 {
+  align-self: stretch;
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  flex-shrink: 0;
+
+}
+.heroCover2Icon{
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+
+  .tag {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 3px;
+  background-color: #e74040;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex-direction: row;
+  padding: 0 10px;
+  }
+  .loginRegister {
+    position: relative;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+  }
+  .tagsParent {
+    align-self: stretch;
+    align-items: flex-start;
+    padding: 25px 25px 35px;
+    text-align: left;
+    font-size: 12px;
+    color: #737373;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    gap: 10px;
+  }
+  .tags {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  .small {
+    position: relative;
+    letter-spacing: 0.2px;
+    line-height: 16px;
+    color: #8ec2f2;
+  }
+  .h4postTitle {
+    font-size: 20px;
+    line-height: 30px;
+    color: #252b42;
+    width: 247px;
+    position: relative;
+    letter-spacing: 0.2px;
+    display: inline-block;
+  }
+  .weKnowhow {
+    margin: 0;
+  }
+
+  .paragraphPostDescription{
+    font-size: 14px;
+    line-height: 20px;
+    width: 280px;
+    position: relative;
+    letter-spacing: 0.2px;
+    display: inline-block;
+  }
+  .frameParent {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+  }
+  .calendar{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+  }
+  .xs { 
+     position: relative;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+  } 
+  .chart{
+    position: relative;
+    width: 16px;
+    height: 14.67px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .div4 {
+    letter-spacing: 0.2px;
+    line-height: 16px;
+    position: relative;
+  }
+  .a13,
+.tagsParent {
+  overflow: hidden;
+  gap: 10px;
+}
+.a13 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+}
+.loginRegister {
+    position: relative;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+  }
+  .arrowNext {
+    position: relative;
+    width: 9px;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }

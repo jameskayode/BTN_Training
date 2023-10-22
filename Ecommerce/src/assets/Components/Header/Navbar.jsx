@@ -1,6 +1,6 @@
 
 import { FaPhone, FaEnvelope, FaInstagram, FaYoutube, FaFacebook, FaTwitter, FaSearch, FaShoppingCart, FaHeart, FaBars, FaHome,FaUser } from 'react-icons/fa';
-import '../navbar.css';
+// import '../navbar.css';
 
 const Navbar = () => {
   return (

@@ -1,0 +1,377 @@
+.bandage {
+    position: absolute;
+    top: 13px;
+    left: 0;
+    letter-spacing: 0.1px;
+    line-height: 32px;
+  }
+  .navbarBrand {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 680.5px);
+    width: 187px;
+    height: 58px;
+    overflow: hidden;
+  }
+  .navbarToggler,
+  .navbarTogglerIcon {
+    position: absolute;
+    width: 24px;
+    height: 13.71px;
+  }
+  .navbarTogglerIcon {
+    top: 0;
+    left: calc(50% - 12px);
+  }
+  .navbarToggler {
+    top: 21px;
+    left: 1413px;
+    overflow: hidden;
+    display: none;
+  }
+  .link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+  }
+  .a,
+  .li {
+    width: 43px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .a {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .li {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .category {
+    position: absolute;
+    top: calc(50% - 13.5px);
+    left: 6px;
+    letter-spacing: 0.2px;
+    line-height: 28px;
+    font-weight: 500;
+  }
+  .vectorIcon {
+    position: absolute;
+    top: calc(50% - 2.5px);
+    left: 53px;
+    width: 10px;
+    height: 5.71px;
+  }
+  .dropdownToggle {
+    position: relative;
+    width: 63px;
+    height: 25px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .h5 {
+    position: relative;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+  }
+  .colMd3,
+  .colMd31,
+  .colMd32,
+  .colMd33,
+  .div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .div {
+    gap: 10px;
+    font-size: 14px;
+    color: #737373;
+  }
+  .colMd3,
+  .colMd31,
+  .colMd32,
+  .colMd33 {
+    width: 153px;
+    overflow: hidden;
+    flex-shrink: 0;
+    padding: 48px 0;
+    box-sizing: border-box;
+    gap: 20px;
+  }
+  .colMd31,
+  .colMd32,
+  .colMd33 {
+    width: 146px;
+  }
+  .colMd32,
+  .colMd33 {
+    width: 152px;
+  }
+  .colMd33 {
+    width: 151px;
+  }
+  .dropHeroIcon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .colMd34 {
+    background-color: #fff;
+    width: 321px;
+    height: 368px;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .colMd34,
+  .container,
+  .row {
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+  }
+  .row {
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+  }
+  .container {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 525px);
+    width: 1050px;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .dropdownMenu {
+    position: relative;
+    background-color: #fafafa;
+    box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
+    width: 1440px;
+    height: 368px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+    font-size: 16px;
+  }
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    text-align: left;
+    color: #252b42;
+  }
+  .a1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45px;
+  }
+  .a1,
+  .a2,
+  .li1,
+  .li2 {
+    height: 24px;
+    overflow: hidden;
+  }
+  .li1 {
+    position: relative;
+    width: 45px;
+    flex-shrink: 0;
+  }
+  .a2,
+  .li2 {
+    width: 33px;
+  }
+  .a2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .li2 {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .a3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 58px;
+  }
+  .a3,
+  .a4,
+  .li3,
+  .li4 {
+    height: 24px;
+    overflow: hidden;
+  }
+  .li3 {
+    position: relative;
+    width: 58px;
+    flex-shrink: 0;
+  }
+  .a4,
+  .li4 {
+    width: 44px;
+  }
+  .a4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .li4 {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .navbarNav {
+    position: absolute;
+    top: calc(50% - 12.5px);
+    left: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  .icnSettingsIcnXs {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .loginRegister {
+    position: relative;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+  }
+  .a5,
+  .btn32 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  .btn32 {
+    border-radius: 37px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+    gap: 5px;
+  }
+  .a5 {
+    width: 166px;
+    height: 54px;
+  }
+  .icnSettingsIcnXs1,
+  .li5 {
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .li5 {
+    width: 166px;
+    height: 54px;
+    font-size: 14px;
+  }
+  .icnSettingsIcnXs1 {
+    width: 16px;
+    height: 16px;
+  }
+  .a6,
+  .btn321 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  .btn321 {
+    border-radius: 37px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+  }
+  .a6 {
+    width: 46px;
+    height: 46px;
+  }
+  .div4,
+  .li6 {
+    position: relative;
+  }
+  .li6 {
+    width: 46px;
+    height: 46px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .div4 {
+    letter-spacing: 0.2px;
+    line-height: 16px;
+  }
+  .a7,
+  .li7 {
+    width: 56px;
+    height: 46px;
+    overflow: hidden;
+  }
+  .a7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .li7 {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .navbarNav1 {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% + 254.5px);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 12px;
+    color: #23a6f0;
+  }
+  .collapseNavbarCollapse,
+  .navbarLight {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 453.5px);
+    width: 1155px;
+    height: 58px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 14px;
+    color: #737373;
+  }
+  .navbarLight {
+    top: 70px;
+    left: calc(50% - 719.5px);
+    width: 1437px;
+    text-align: left;
+    font-size: 24px;
+    color: #252b42;
+    font-family: Montserrat;
+  }
+  

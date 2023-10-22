@@ -1,0 +1,204 @@
+.colMd43 {
+    position: relative;
+    flex-shrink: 0;
+    
+  }
+  .cardItem,
+  .colMd43 {
+    width: 205px;
+    height: 223px;
+    overflow: hidden;
+  }
+  .cardItem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+  }
+  .mediaBgCover {
+    width: 100%;
+    right: 0;
+    left: 0;
+  }
+  .cardCover5Icon,
+  .filter,
+  .mediaBgCover {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+  .cardCover5Icon {
+    width: 100%;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .filter {
+    width: calc(100% - 1px);
+    right: 0.5px;
+    left: 0.5px;
+    background-color: rgba(33, 33, 33, 0.25);
+  }
+  .cardContent {
+    position: absolute;
+    width: calc(100% + 1px);
+    top: 0;
+    right: -1px;
+    left: 0;
+    height: 223px;
+    overflow: hidden;
+  }
+  .h65,
+  .h66 {
+   
+    letter-spacing: 0.1px;
+    line-height: 24px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .desktopShopCards18 {
+    align-self: stretch;
+    position: relative;
+    background-color: #fafafa;
+    height: 271px;
+    overflow: hidden;
+    flex-shrink: 0;
+    font-size: 16px;
+    color: #fff;
+  }
+  .container3 {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 544px);
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 48px;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .row3 {
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .row3 {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+  }
+ 
+/* 
+  .cardCover5Icon {
+    width: 100%;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .cardCover5Icon,
+  .filter,
+  .mediaBgCover {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+  .filter {
+    width: calc(100% - 1px);
+    right: 0.5px;
+    left: 0.5px;
+    background-color: rgba(33, 33, 33, 0.25);
+  }
+  .mediaBgCover {
+    width: 100%;
+    right: 0;
+    left: 0;
+  }
+  .h6,
+  .h61 {
+    position: absolute;
+    top: 87px;
+    left: calc(50% - 33px);
+    letter-spacing: 0.1px;
+    line-height: 24px;
+  }
+  .h61 {
+    top: 120.5px;
+    left: calc(50% - 26.5px);
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    text-align: left;
+  }
+  .cardContent {
+    position: absolute;
+    width: calc(100% + 1px);
+    top: 0;
+    right: -1px;
+    left: 0;
+    height: 223px;
+    overflow: hidden;
+  }
+  .cardItem,
+  .colMd4 {
+    width: 205px;
+    height: 223px;
+    overflow: hidden;
+  }
+  .cardItem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+  }
+  .colMd4 {
+    position: relative;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    font-family: Montserrat;
+  }
+  .container,
+  .row {
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .row {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .container {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 544px);
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 48px;
+  }
+  .desktopShopCards18 {
+    align-self: stretch;
+    position: relative;
+    background-color: #fafafa;
+    height: 271px;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    font-family: Montserrat;
+  }
+     */

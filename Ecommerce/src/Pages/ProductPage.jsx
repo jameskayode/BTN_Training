@@ -1,13 +1,19 @@
-// import React from 'react'
-import FlootingCard from '../assets/Components/Product/FlootingCard'
-import ProductDescription from '../assets/Components/Product/ProductDescription'
-import BestsellerProductCardsContaine from '../assets/Components/Product/BestsellerProductCardsContaine'
+import NavDark from "../assets/MyComponent/Header/DarkNav"
+import LightNav from "../assets/MyComponent/Header/LightNav"
+import ShopListContainer1 from "../assets/MyComponent/Productsection/ShopCard/ShopListContainer1"
+import FlootingCard from "../assets/MyComponent/Product/FlootingCard";
+import ProductDescription from "../assets/MyComponent/Product/ProductDescription";
+import ProductSellers from "../assets/MyComponent/Product/ProductSellers";
+
 const ProductPage = () => {
   return (
     <>
-      <FlootingCard/>
-      <ProductDescription/>
-      <BestsellerProductCardsContaine/>
+      <NavDark bgColor="greenBackground" />
+      <LightNav />
+      <ShopListContainer1 />
+      <FlootingCard />
+      <ProductDescription />
+      <ProductSellers />
     </>
   )
 }

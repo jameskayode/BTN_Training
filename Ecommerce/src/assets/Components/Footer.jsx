@@ -36,22 +36,7 @@ const footerData = {
 const Footer = () => {
   return (
     <div className="desktop-footer-6">
-      <div className="div6">
-        <div className="container7">
-          <div className="row12">
-            <div className="col-md-315">
-              <div className="navbar-brand1">
-                <div className="bandage">Bandage</div>
-              </div>
-            </div>
-            <div className="col-md-316">
-              <div className="social-media1">
-                {footerData.getInTouch.socialMediaIcons}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
       <div className="hr" />
       <div className="div7">

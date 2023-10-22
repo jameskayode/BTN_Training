@@ -1,0 +1,131 @@
+.icnSettingsIcnXs {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .h6 {
+    position: relative;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+  }
+  .btnSm20 {
+    border-radius: 5px;
+    overflow: hidden;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+  }
+  .a,
+  .a1,
+  .a2,
+  .a3,
+  .btnSm20,
+  .colMd4,
+  .colMd41 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .colMd4 {
+    height: 46px;
+    overflow: hidden;
+    align-items: center;
+    gap: 10px;
+  }
+  .a,
+  .a1,
+  .a2,
+  .a3,
+  .colMd41 {
+    align-items: flex-start;
+  }
+  .colMd41 {
+    overflow: hidden;
+    padding: 10px;
+  }
+  .a,
+  .a1,
+  .a2,
+  .a3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+  }
+  .a1,
+  .a2,
+  .a3 {
+    left: 31.5px;
+  }
+  .a2,
+  .a3 {
+    left: 61.5px;
+  }
+  .a3 {
+    left: 93.5px;
+  }
+  .socialMedia {
+    position: relative;
+    width: 120px;
+    height: 26px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .colMd42,
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .colMd42 {
+    height: 46px;
+    overflow: hidden;
+    justify-content: flex-start;
+    padding: 10px;
+    gap: 10px;
+  }
+  .row {
+    width: 1438px;
+    justify-content: space-between;
+    padding: 0 24px;
+  }
+  .collapseNavbarCollapse,
+  .container {
+    position: absolute;
+    width: 1438px;
+    overflow: hidden;
+  }
+  .container {
+    top: 0;
+    left: calc(50% - 719px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .collapseNavbarCollapse {
+    top: 9px;
+    left: calc(50% - 717.5px);
+    height: 46px;
+  }
+  .navbarDark {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #252b42;
+    height: 58px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    font-family: Montserrat;
+  }
+
+.greenBackground {
+  background-color: green;
+}

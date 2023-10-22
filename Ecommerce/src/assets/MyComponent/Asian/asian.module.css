@@ -1,0 +1,127 @@
+.containerFluid {
+  position: relative;
+  margin-top: 700px;
+  background-color: #fff;
+  width: 2440px;
+  height: 682px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 16px;
+  color: #bdbdbd;
+  margin-left: 30px;  
+}
+
+
+.asianWomanManWithWinterClIcon {
+    position: absolute;
+    top: -117px;
+    left: -36px;
+    width: 725px;
+    height: 800px;
+    object-fit: cover;
+  }
+  .heroCover1,
+  .none {
+    position: absolute;
+    top: 117px;
+    left: 36px;
+    width: 632px;
+    /* height: 491.99px; */
+  }
+  .heroCover1 {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  .colMd6 {
+    position: relative;
+    width: 704px;
+    height: 682px;
+  }
+  .h5HeaderTag {
+    position: relative;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+  }
+  .partOfThe {
+    margin: 0;
+  }
+  .h1Headline,
+  .h4SubHeadline {
+    position: relative;
+    font-size: 40px;
+    letter-spacing: 0.2px;
+    line-height: 50px;
+    color: #252b42;
+    font-weight: bold;
+  }
+  .h4SubHeadline {
+    font-size: 20px;
+    line-height: 30px;
+    color: #737373;
+    display: inline-block;
+    width: 376px;
+  }
+  .cta {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .colMd64,
+  .row9 {
+    /* overflow: hidden; */
+    display: flex;
+    gap: 30px;
+  }
+  .colMd64 {
+    width: 573px;
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .row9 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1439px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .buttonMd {
+    border-radius: 5px;
+    background-color: #2dc071;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 40px;
+    font-size: 14px;
+    color: white;
+  }
+  .buttonMd1 {
+    border-radius: 5px;
+    background-color: white;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 40px;
+    font-size: 14px;
+    color: #2dc071;
+  }
+
+
+.btnText {
+    position: relative;
+    letter-spacing: 0.2px;
+    line-height: 22px;
+  }
+
+  

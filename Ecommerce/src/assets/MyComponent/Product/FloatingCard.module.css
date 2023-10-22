@@ -1,4 +1,4 @@
-.col-md-6-icon {
+.colMd6Icon {
     position: relative;
     width: 510px;
     height: 550px;
@@ -13,7 +13,7 @@
     letter-spacing: 0.2px;
     line-height: 30px;
   }
-  .icn-bxs-star-icon {
+  .icnBxsStarIcon {
     position: relative;
     width: 22.01px;
     height: 22.01px;
@@ -28,17 +28,17 @@
     justify-content: flex-start;
     gap: 5px;
   }
-  .h65 {
+  .h6 {
     position: relative;
     letter-spacing: 0.2px;
     line-height: 24px;
   }
-  .h59,
-  .stars-parent {
+  .h5,
+  .starsParent {
     position: absolute;
     left: 24px;
   }
-  .stars-parent {
+  .starsParent {
     top: 53px;
     display: flex;
     flex-direction: row;
@@ -47,20 +47,20 @@
     gap: 10px;
     color: #737373;
   }
-  .h59 {
+  .h5 {
     top: 97px;
     font-size: 24px;
     letter-spacing: 0.1px;
     line-height: 32px;
     text-align: center;
   }
-  .h67 {
+  .h62 {
     position: relative;
     letter-spacing: 0.2px;
     line-height: 24px;
     color: #23a6f0;
   }
-  .div12 {
+  .div {
     position: absolute;
     top: 134px;
     left: 24px;
@@ -71,10 +71,10 @@
     gap: 5px;
     color: #737373;
   }
-  .met-minim-mollie {
+  .metMinimMollie {
     margin: 0;
   }
-  .hr1,
+  .hr,
   .paragraph {
     position: absolute;
   }
@@ -85,7 +85,7 @@
     line-height: 20px;
     color: #858585;
   }
-  .hr1 {
+  .hr {
     top: 276.5px;
     left: 24.5px;
     border-top: 1px solid #bdbdbd;
@@ -93,49 +93,60 @@
     width: 446px;
     height: 1px;
   }
-  .ellipse-div,
-  .product-colors-child,
-  .product-colors-inner,
-  .product-colors-item {
+  .ellipseDiv,
+  .productColorsChild,
+  .productColorsInner,
+  .productColorsItem {
     position: relative;
     border-radius: 50%;
     background-color: #23a6f0;
     width: 30px;
     height: 30px;
   }
-  .ellipse-div,
-  .product-colors-inner,
-  .product-colors-item {
+  .ellipseDiv,
+  .productColorsInner,
+  .productColorsItem {
     background-color: #2dc071;
   }
-  .ellipse-div,
-  .product-colors-inner {
+  .ellipseDiv,
+  .productColorsInner {
     background-color: #e77c40;
   }
-  .ellipse-div {
+  .ellipseDiv {
     background-color: #252b42;
   }
-  .btnprimary-colorbtn-sm,
-  .product-colors {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .product-colors {
+  .productColors {
     position: absolute;
     top: 306px;
     left: 24px;
+    display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
     gap: 10px;
   }
-  .btnprimary-colorbtn-sm {
-    border-radius: 5px;
-    background-color: #23a6f0;
-    overflow: hidden;
-    flex-direction: column;
-    padding: 10px 20px;
+  .h63 {
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    font-family: Montserrat;
+    color: #fff;
+    text-align: center;
   }
-  .like-icon {
+  .btnprimaryColorbtnSm {
+    cursor: pointer;
+    border: 0;
+    padding: 10px 20px;
+    background-color: #23a6f0;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .likeIcon {
     position: relative;
     border-radius: 44.79px;
     width: 40px;
@@ -143,7 +154,7 @@
     overflow: hidden;
     flex-shrink: 0;
   }
-  .product-actions {
+  .productActions {
     position: absolute;
     bottom: 24px;
     left: 24px;
@@ -153,35 +164,33 @@
     align-items: flex-start;
     justify-content: flex-start;
     gap: 10px;
-    text-align: center;
-    color: #fff;
   }
-  .col-md-61 {
+  .colMd6 {
     position: relative;
     width: 510px;
     height: 471px;
     overflow: hidden;
     flex-shrink: 0;
   }
-  .container6,
-  .row6 {
+  .container,
+  .row {
     overflow: hidden;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .row6 {
+  .row {
     flex-direction: row;
     gap: 30px;
   }
-  .container6 {
+  .container {
     position: absolute;
     top: 0;
     left: calc(50% - 525px);
     flex-direction: column;
     padding: 0 0 48px;
   }
-  .desktop-product-cards-42 {
+  .desktopProductCards42 {
     align-self: stretch;
     position: relative;
     background-color: #fafafa;

@@ -1,6 +1,5 @@
 /* .navbar-style-7-navbar-light{
-  display: none;
-} */
+  
 
 .hero-cover2-icon {
   
@@ -144,6 +143,7 @@
   position: absolute;
   /* left: 0; */
 }
+
 .navbar-dark {
   width: 100%;
   top: 0;

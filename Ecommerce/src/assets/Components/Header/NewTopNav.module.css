@@ -1,0 +1,253 @@
+/* navbar.module.css */
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    background-color: #fafafa;
+    color: #fff;
+    font-size: 16px;
+  }
+  .navbar-style-8-navbar-light {
+    position: absolute;
+    width: calc(100% - 1px);
+    top: 0;
+    right: 1px;
+    left: 0;
+    background-color: #fff;
+    height: 136px;
+    overflow: hidden;
+  }
+  
+  .navbar-dark {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background-color: #252b42;
+    height: 58px;
+    /* overflow: hidden; */
+  }
+  
+  /* .collapse-navbar-collapse {
+    /* Your styles for .collapse-navbar-collapse */
+
+  
+    .container {
+        top: 0;
+        left: calc(50% - 719px);
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+      }
+  
+  .row {
+    width: 1438px;
+    justify-content: space-between;
+    padding: 0 24px;
+  }
+  
+  .col-md-4 {
+    display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+    height: 46px;
+    overflow: hidden;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .btn-sm-20 {
+        border-radius: 5px;
+    overflow: hidden;
+    align-items: center;
+    padding: 10px;
+    gap: 5px; 
+  }
+  
+  .icn-settings-icn-xs {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .login-register {
+    position: relative;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+  }
+  
+  .col-md-41 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    padding: 10px;
+  }
+  
+  .col-md-42 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    height: 46px;
+    overflow: hidden;
+    justify-content: flex-start;
+    padding: 10px;
+    gap: 10px;
+  }
+  
+  .social-media {
+    /* Your styles for .social-media */
+  }
+  
+  .a {
+    /* Your styles for .a */
+  }
+  
+  .a1 {
+    /* Your styles for .a1 */
+  }
+  
+  .a2 {
+    /* Your styles for .a2 */
+  }
+  
+  .a3 {
+    /* Your styles for .a3 */
+  }
+  
+  .navbar-light {
+    /* Your styles for .navbar-light */
+  }
+  
+  .navbar-brand {
+    /* Your styles for .navbar-brand */
+  }
+  
+  .bandage {
+    /* Your styles for .bandage */
+  }
+  
+  .navbar-toggler {
+    /* Your styles for .navbar-toggler */
+  }
+  
+  .navbar-toggler-icon {
+    /* Your styles for .navbar-toggler-icon */
+  }
+  
+  .collapse-navbar-collapse1 {
+    /* Your styles for .collapse-navbar-collapse1 */
+  }
+  
+  .navbar-nav {
+    /* Your styles for .navbar-nav */
+  }
+  
+  .li {
+    /* Your styles for .li */
+  }
+  
+  .a4 {
+    /* Your styles for .a4 */
+  }
+  
+  .link {
+    /* Your styles for .link */
+  }
+  
+  .dropdown {
+    /* Your styles for .dropdown */
+  }
+  
+  .dropdown-toggle {
+    /* Your styles for .dropdown-toggle */
+  }
+  
+  .category {
+    /* Your styles for .category */
+  }
+  
+  .vector-icon {
+    /* Your styles for .vector-icon */
+  }
+  
+  .li1 {
+    /* Your styles for .li1 */
+  }
+  
+  .a5 {
+    /* Your styles for .a5 */
+  }
+  
+  .li2 {
+    /* Your styles for .li2 */
+  }
+  
+  .a6 {
+    /* Your styles for .a6 */
+  }
+  
+  .li3 {
+    /* Your styles for .li3 */
+  }
+  
+  .a7 {
+    /* Your styles for .a7 */
+  }
+  
+  .li4 {
+    /* Your styles for .li4 */
+  }
+  
+  .a8 {
+    /* Your styles for .a8 */
+  }
+  
+  .navbar-nav1 {
+    /* Your styles for .navbar-nav1 */
+  }
+  
+  .li5 {
+    /* Your styles for .li5 */
+  }
+  
+  .a9 {
+    /* Your styles for .a9 */
+  }
+  
+  .btn-32 {
+    /* Your styles for .btn-32 */
+  }
+  
+  .icn-settings-icn-xs6 {
+    /* Your styles for .icn-settings-icn-xs6 */
+  }
+  
+  .li6 {
+    /* Your styles for .li6 */
+  }
+  
+  .a10 {
+    /* Your styles for .a10 */
+  }
+  
+  .btn-321 {
+    /* Your styles for .btn-321 */
+  }
+  
+  .li7 {
+    /* Your styles for .li7 */
+  }
+  
+  .a11 {
+    /* Your styles for .a11 */
+  }
+  
+  .div4 {
+    /* Your styles for .div4 */
+  }
+  

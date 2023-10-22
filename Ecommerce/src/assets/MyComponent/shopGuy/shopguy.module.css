@@ -1,0 +1,168 @@
+.carousel2{
+  position: relative;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  color: white;
+  width: 100%;
+}
+
+
+
+
+
+.shopHero2ProductSlide2 {
+    position: absolute;
+    top: 0;
+    background-color: #23856d;
+    width: 100%;
+    height: 600px;
+    /* overflow: hidden; */
+  }
+  .h1Headline4,
+  .h41,
+  .h55 {
+    position: relative;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+  }
+  .h1Headline4,
+  .h41 {
+    font-size: 58px;
+    line-height: 80px;
+    display: inline-block;
+    width: 509px;
+  }
+  .h41 {
+    font-size: 14px;
+    line-height: 20px;
+    width: 341px;
+  }
+  .btn-text3,
+  .h5Price8 {
+    position: relative;
+    letter-spacing: 0.1px;
+    line-height: 32px;
+  }
+  .btnText3 {
+    letter-spacing: 0.2px;
+    line-height: 22px;
+    color:white;
+    font-weight: bold;
+  }
+  .buttonMd {
+    border-radius: 5px;
+    background-color: #2dc071;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 40px;
+    font-size: 14px;
+  }
+  .buttonMd,
+  .colMd61,
+  .cta1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .cta1 {
+    flex-direction: row;
+    align-items: center;
+    gap: 34px;
+    text-align: center;
+    font-size: 24px;
+  }
+  .colMd61 {
+    width: 509px;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 0 0;
+    box-sizing: border-box;
+    gap: 30px;
+  }
+  .shopHero2PngPicture1Icon {
+    position: relative;
+    width: 443px;
+    height: 685px;
+    object-fit: cover;
+  }
+  .colMd62,
+  .container6,
+  .row8 {
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .colMd62 {
+    width: 510px;
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container6,
+  .row8 {
+    align-items: flex-start;
+  }
+  .row8 {
+    height: 599px;
+    flex-shrink: 0;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .container6 {
+    position: absolute;
+    top: 0;
+   
+  }
+  
+  
+  .carouselCaptions2,
+  .carouselCaptions3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 62px;
+    height: 10px;
+  }
+  .carouselCaptions3 {
+    left: 63px;
+    width: 63px;
+    opacity: 0.5;
+  }
+  .carouselIndicators1 {
+    position: relative;
+    bottom: 49px;
+    left: calc(50% - 63px);
+    width: 126px;
+    height: 10px;
+    overflow: hidden;
+  }
+  .carouselControlNextIcon1,
+  .carouselControlPrevIcon1 {
+    position: absolute;
+    top: 401px;
+    left: 1381px;
+    width: 24px;
+    height: 44.47px;
+    overflow: hidden;
+  }
+  .carouselControlPrevIcon1 {
+    left: 40px;
+  }
+  /* .carousel 2 {
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    box-sizing: border-box;
+    width: 100%;
+    height: 709px;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    font-family: Montserrat;
+  } */
+  

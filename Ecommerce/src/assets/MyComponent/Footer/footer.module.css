@@ -25,8 +25,8 @@
     gap: var(--gap-3xs);
   }
   
-  .col-md-2,
-  .col-md-21 {
+  .colmd2,
+  .colmd21 {
     width: 152px;
     overflow: hidden;
     flex-shrink: 0;
@@ -37,7 +37,7 @@
     gap: var(--gap-xl);
   }
   
-  .your-email{
+  .youremail{
     position: absolute;
     top: calc(50% - 14px);
     left: 20px;
@@ -51,7 +51,7 @@
      
   }
   
-  .form-control-input-style-1 {
+  .formcontrol {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -66,7 +66,7 @@
     overflow: hidden;
   }
   
-  .input-group-text {
+  .grouptext {
     position: absolute;
     top: calc(50% - 14px);
     left: calc(50% - 36px);
@@ -74,7 +74,7 @@
     line-height: 28px;
     background-color: #23A6F0;
   }
-  .sub-btn{
+  .subbtn{
     position: relative;
     border-radius: 0px var(--br-8xs) var(--br-8xs) 0px;
     
@@ -108,7 +108,7 @@
       cursor: pointer;
   }
   
-  .input-group-append {
+  .inputappend {
     position: absolute;
     height: 100%;
     top: 0px;
@@ -120,7 +120,7 @@
     color: var(--light-text-color);
   }
   
-  .input-group {
+  .inputgroup {
     position: absolute;
     width: 100%;
     top: 0px;
@@ -130,7 +130,7 @@
     overflow: hidden;
   }
   
-  .form-text {
+  .formtext {
     position: absolute;
     bottom: 0px;
     left: 2px;
@@ -139,7 +139,7 @@
     line-height: 28px;
   }
   
-  .custom-form-group-subscribe {
+  .groupsubscribe {
     position: relative;
     width: 321px;
     height: 87px;
@@ -147,7 +147,7 @@
     color: var(--second-text-color);
   }
   
-  .col-md-4 {
+  .colmd4 {
     width: 321px;
     overflow: hidden;
     flex-shrink: 0;

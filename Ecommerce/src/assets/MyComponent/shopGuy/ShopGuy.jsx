@@ -1,7 +1,7 @@
-import React from 'react';
-import { MdArrowBackIosNew, MdArrowForwardIos } from 'react-icons/md';
-import Shopguy from '../../assets/images/shopg.png';
-import styles from './shopguy.module.css';
+import React from "react";
+import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
+import Shopguy from "../../images/shopg.png";
+import styles from "./shopguy.module.css";
 
 const ShopGuy = () => {
   return (
@@ -13,15 +13,20 @@ const ShopGuy = () => {
             <div className={styles.h55}>SUMMER 2020</div>
             <b className={styles.h1Headline4}>Vita Classic Product</b>
             <div className={styles.h41}>
-              We know how large objects will act, We know how are objects will act, We know
+              We know how large objects will act, We know how are objects will
+              act, We know
             </div>
             <div className={styles.cta1}>
               <span className={styles.h5Price8}>$16.48</span>
-              <button className={styles.buttonMdBtnText3}>ADD TO CART</button>
+              <button className={styles.buttonMd}>ADD TO CART</button>
             </div>
           </div>
           <div className={styles.colMd62}>
-            <img className={styles.shopHero2PngPicture1Icon} alt="" src={Shopguy} />
+            <img
+              className={styles.shopHero2PngPicture1Icon}
+              alt=""
+              src={Shopguy}
+            />
           </div>
         </div>
       </div>
