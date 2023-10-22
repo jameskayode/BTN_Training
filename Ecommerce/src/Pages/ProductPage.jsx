@@ -4,6 +4,9 @@ import ShopListContainer1 from "../assets/MyComponent/Productsection/ShopCard/Sh
 import FlootingCard from "../assets/MyComponent/Product/FlootingCard";
 import ProductDescription from "../assets/MyComponent/Product/ProductDescription";
 import ProductSellers from "../assets/MyComponent/Product/ProductSellers";
+import Client from "../assets/MyComponent/Client/Client";
+import FooterHead from "../assets/MyComponent/FooterHead";
+import NewFooter from "../assets/MyComponent/Footer/NewFooter";
 
 const ProductPage = () => {
   return (
@@ -14,6 +17,10 @@ const ProductPage = () => {
       <FlootingCard />
       <ProductDescription />
       <ProductSellers />
+      <Client />
+      <FooterHead />
+      <NewFooter/>
+
     </>
   )
 }

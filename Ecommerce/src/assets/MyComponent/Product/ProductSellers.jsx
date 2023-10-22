@@ -1,73 +1,15 @@
 // import React from 'react'
 import CardProduct from "./CardProduct";
 import styles from "./CardProduct.module.css";
+import { productData } from "../../utils/mockData";
 
-
-const productData = [
-  {
-    imageSrc: "/productcover5@2x.png",
-    title: "Graphic Design",
-    category: "English Department",
-    price: "$16.48",
-    discountPrice: "$6.48",
-  },
-  {
-    imageSrc: "/productcover51@2x.png",
-    title: "Graphic Design",
-    category: "English Department",
-    price: "$16.48",
-    discountPrice: "$6.48",
-  },
-  {
-    imageSrc: "/productcover52@2x.png",
-    title: "Graphic Design",
-    category: "English Department",
-    price: "$16.48",
-    discountPrice: "$6.48",
-  },
-  {
-    imageSrc: "/productcover53@2x.png",
-    title: "Graphic Design",
-    category: "English Department",
-    price: "$16.48",
-    discountPrice: "$6.48",
-  },
-  {
-    imageSrc: "/productcover53@2x.png",
-    title: "Graphic Design",
-    category: "English Department",
-    price: "$16.48",
-    discountPrice: "$6.48",
-  },
-  {
-    imageSrc: "/productcover53@2x.png",
-    title: "Graphic Design",
-    category: "English Department",
-    price: "$16.48",
-    discountPrice: "$6.48",
-  },
-  {
-    imageSrc: "/productcover53@2x.png",
-    title: "Graphic Design",
-    category: "English Department",
-    price: "$16.48",
-    discountPrice: "$6.48",
-  },
-  {
-    imageSrc: "/productcover53@2x.png",
-    title: "Graphic Design",
-    category: "English Department",
-    price: "$16.48",
-    discountPrice: "$6.48",
-  },
-];
 const ProductSellers = () => {
   return (
     <div className={styles.desktopProductCards15}>
       <div className={styles.container}>
         <div className={styles.row}>
           <div className={styles.mainContent}>
-            <b className={styles.h3SectionTitle}>BESTSELLER PRODUCTS</b>
+            <b className={styles.h3SectionTitle}>BESTSELLER  PRODUCTS</b>
           </div>
         </div>
         <div className={styles.containerChild} />
@@ -83,5 +25,4 @@ const ProductSellers = () => {
   );
 };
 
-
-export default ProductSellers
+export default ProductSellers;

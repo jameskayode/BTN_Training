@@ -68,6 +68,65 @@ export const divData = {
   };
 
 
+  export const productData = [
+    {
+      imageSrc: "/src/assets/images/plate.png",
+      title: "Graphic Design",
+      category: "English Department",
+      price: "$16.48",
+      discountPrice: "$6.48",
+    },
+    {
+      imageSrc: "/src/assets/images/cup.png",
+      title: "Graphic Design",
+      category: "English Department",
+      price: "$16.48",
+      discountPrice: "$6.48",
+    },
+    {
+      imageSrc: "/src/assets/images/plate2.png",
+      title: "Graphic Design",
+      category: "English Department",
+      price: "$16.48",
+      discountPrice: "$6.48",
+    },
+    {
+      imageSrc: "/src/assets/images/cup2.png",
+      title: "Graphic Design",
+      category: "English Department",
+      price: "$16.48",
+      discountPrice: "$6.48",
+    },
+    {
+      imageSrc: "/src/assets/images/emptyplate.png",
+      title: "Graphic Design",
+      category: "English Department",
+      price: "$16.48",
+      discountPrice: "$6.48",
+    },
+    {
+      imageSrc: "/src/assets/images/chair.png",
+      title: "Graphic Design",
+      category: "English Department",
+      price: "$16.48",
+      discountPrice: "$6.48",
+    },
+    {
+      imageSrc: "/src/assets/images/plate.png",
+      title: "Graphic Design",
+      category: "English Department",
+      price: "$16.48",
+      discountPrice: "$6.48",
+    },
+    {
+      imageSrc: "/src/assets/images/cup.png",
+      title: "Graphic Design",
+      category: "English Department",
+      price: "$16.48",
+      discountPrice: "$6.48",
+    },
+  ];
+
 
 
 

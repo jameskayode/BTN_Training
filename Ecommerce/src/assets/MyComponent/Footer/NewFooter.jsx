@@ -12,7 +12,7 @@ const NewFooter = () => {
           <div className={styles.colmd2}>
             <b className={styles.h5}>{divData.companyInfo.title}</b>
             <div className={styles.div1}>
-              {divData.companyInfo.links.map((link, index) =>(
+              {divData.companyInfo.links.map((link, index) => (
                 <div className={styles.link} key={index}>
                   {link}
                 </div>
@@ -29,7 +29,7 @@ const NewFooter = () => {
               ))}
             </div>
           </div>
-        <div className={styles.colmd2}>
+          <div className={styles.colmd2}>
             <b className={styles.h5}>{divData.features.title}</b>
             <div className={styles.div1}>
               {divData.features.links.map((link, index) => (
@@ -39,7 +39,7 @@ const NewFooter = () => {
               ))}
             </div>
           </div>
-        <div className={styles.colmd21}>
+          <div className={styles.colmd21}>
             <b className={styles.h5}>{divData.resources.title}</b>
             <div className={styles.div1}>
               {divData.resources.links.map((link, index) => (
@@ -49,23 +49,34 @@ const NewFooter = () => {
               ))}
             </div>
           </div>
-        <div className={styles.colmd4}>
-          <div className={styles.h5}>{divData.getInTouch.title}</div>
+          <div className={styles.colmd4}>
+            <div className={styles.h5}>{divData.getInTouch.title}</div>
             <div className={styles.groupsubscribe}>
-            <div className={styles.inputgroup}>
-              <div className={styles.formcontrol}>
-            <input type="email" name="" id="" placeholder="Your Email"  className={styles.youremail}/>
+              <div className={styles.inputgroup}>
+                <div className={styles.formcontrol}>
+                  <input
+                    type="email"
+                    name=""
+                    id=""
+                    placeholder="Your Email"
+                    className={styles.youremail}
+                  />
                 </div>
-          <div className={styles.inputappend}>
+                <div className={styles.inputappend}>
                   {/* <button className=""> */}
-          <button className={styles.grouptext}>{divData.getInTouch.buttonText}</button>
+                  <button className={styles.grouptext}>
+                    {divData.getInTouch.buttonText}
+                  </button>
                   {/* </button> */}
                 </div>
               </div>
-              <div className={styles.formtext}>{divData.getInTouch.description}</div>
+              <div className={styles.formtext}>
+                {divData.getInTouch.description}
+              </div>
             </div>
           </div>
         </div>
+      <span className={styles.copyright}>Made With Love By Finland All Right Reserved </span>
       </div>
     </div>
   );

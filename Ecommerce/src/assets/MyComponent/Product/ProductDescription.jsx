@@ -65,7 +65,7 @@ const ProductDescription = () => {
                     <img
                       className={styles.unsplashqanof9ijlfsIcon}
                       alt=""
-                      src="/unsplashqanof9ijlfs.svg"
+                      src="/src/assets/images/productdesc.png"
                     />
                   </div>
                 </div>

@@ -1,7 +1,9 @@
 import{ useState } from "react";
 import styles from "./FloatingCard.module.css";
 import Rating from "react-rating-stars-component";
-import { BsStar, BsStarFill } from "react-icons/bs";
+import { BsStar, BsStarFill, BsCart } from "react-icons/bs";
+import { MdOutlineFavoriteBorder } from "react-icons/md";
+import {IoEyeSharp} from "react-icons/io5";
 
 const FloatingCard = () => {
   const [rating, setRating] = useState(2);
@@ -10,7 +12,11 @@ const FloatingCard = () => {
     <div className={styles.desktopProductCards42}>
       <div className={styles.container}>
         <div className={styles.row}>
-          <img className={styles.colMd6Icon} alt="" src="/colmd6.svg" />
+          <img
+            className={styles.colMd6Icon}
+            alt=""
+            src="/src/assets/images/clear-single-product.png"
+          />
           <div className={styles.colMd6}>
             <div className={styles.h4}>Floating Phone</div>
             <div className={styles.starsParent}>
@@ -52,9 +58,9 @@ const FloatingCard = () => {
               <button className={styles.btnprimaryColorbtnSm}>
                 <b className={styles.h63}>Select Options</b>
               </button>
-              <img className={styles.likeIcon} alt="" src="/like.svg" />
-              <img className={styles.likeIcon} alt="" src="/basket.svg" />
-              <img className={styles.likeIcon} alt="" src="/more.svg" />
+              <MdOutlineFavoriteBorder className={styles.likeIcon} />
+              <BsCart className={styles.likeIcon} />
+              <IoEyeSharp className={styles.likeIcon}/>
             </div>
           </div>
         </div>

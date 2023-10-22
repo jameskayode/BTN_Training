@@ -148,12 +148,16 @@
   }
   .likeIcon {
     position: relative;
-    border-radius: 44.79px;
-    width: 40px;
-    height: 40px;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
     overflow: hidden;
-    flex-shrink: 0;
-  }
+    
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
   .productActions {
     position: absolute;
     bottom: 24px;
