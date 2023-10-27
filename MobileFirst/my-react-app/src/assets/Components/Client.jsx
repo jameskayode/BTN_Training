@@ -3,13 +3,15 @@ import { brand01, brand02, brand03, brand04, brand05, brand06 } from "../../asse
 const Client = () => {
   
   return (
-    <div className="desktopClients1">
+    <div className="client-section">
       <div className="container">
-        <h2>Big Companies Are Here</h2>
-        <p>
-          Problems trying to resolve the conflict between the two major realms
-          of Classical physics: Newtonian mechanics
-        </p>
+        <div className="text-content">
+          <h2>Big Companies Are Here</h2>
+          <p>
+            Problems trying to resolve the conflict between the two major realms
+            of Classical physics: Newtonian mechanics
+          </p>
+        </div>
         <div className="row">
           <div className="colMd2">
             <img className="faBrands1Icon" alt="" src={brand01} />

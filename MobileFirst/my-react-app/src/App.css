@@ -308,7 +308,82 @@ justify-content: center;
 align-items: center;
 gap: 1.25rem; 
 }
-
+.client-section{
+  display: flex;
+  flex-direction: column;
+align-items: center; 
+justify-content: center;
+max-width: 25.625rem;
+  margin: 0 auto;
+  /* padding-inline: 8.25rem;  */
+  padding-top: 3rem;
+}
+.client-section h2, p{
+  max-width: 17.9375rem;
+  color: var(--text-color, #252B42);
+text-align: center;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.125rem; 
+letter-spacing: 0.0125rem; 
+padding-bottom: 1.8rem;
+}
+.client-section p{
+  max-width: 20.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem; 
+}
+.row{
+  display: flex;
+width: 20.4375rem;
+padding: 3.125rem 0rem;
+flex-direction: column;
+align-items: center;
+gap: 3.75rem; 
+}
+.testimonial-section{
+display: flex;
+width: 100%;
+padding: 3.75rem 0rem 4.5rem 0rem;
+flex-direction: column;
+align-items: center; 
+justify-content: center;
+align-items: center;
+background: #2A7CC7;
+}
+.text-wrapper{
+display: flex;
+width: 25.875rem;
+padding: 1.875rem 0rem;
+flex-direction: column;
+align-items: center;
+gap: 2.25rem; 
+border-radius: 0.125rem; 
+}
+.test-content{
+  display: flex;
+  width: 17rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem; 
+  text-align: center;
+  color: white !important;
+}
+.text-content h5{
+  font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.5rem; 
+letter-spacing: 0.00625rem; 
+}
+.text-content h2{
+max-width: 10rem; 
+font-size: 2.5rem;
+font-weight: 700;
+line-height: 3.125rem; /* 125% */
+letter-spacing: 0.0125rem; 
+}
 @media screen and (min-width: 768px) {
   header{
     display: flex;
@@ -472,14 +547,53 @@ letter-spacing: 0.0125rem;
   
   }
   /* Team Member */
-.team-section .team-content{
-  justify-content: center;
-  align-items: center;
-  background-color: var(--light-background-color);
-  display: flex;
+.team-section{
+  gap: 3.75rem;
+  padding-block: 1rem;
+  max-width: 100%;
   flex-direction: row;
-  padding: 0 20px;
-  
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.5rem;
+  padding-inline: 5rem; 
+ 
+
+}
+
+.client-section h2{
+ max-width: 100%;
+
+ font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.125rem; 
+letter-spacing: 0.0125rem; 
+}
+.client-section p{
+  max-width:34.1875rem ;
+  font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.25rem; /* 142.857% */
+letter-spacing: 0.0125rem; 
+}
+.client-section .container{
+  display: flex;
+width: 54rem;
+flex-direction: column;
+align-items: center;
+gap: 1.875rem; 
+}
+.row{
+  gap: 3.75rem;
+    padding-block: 1rem;
+    max-width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+    /* padding-inline: 5rem;  */
 }
   
 } 
