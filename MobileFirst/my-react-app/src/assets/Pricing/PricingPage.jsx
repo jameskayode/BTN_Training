@@ -6,10 +6,10 @@ import { IoCheckmarkCircleOutline } from "react-icons/io5";
 
 const PricingPage = () => {
   return (
-    <div className="relative bg-gray-100 w-[25.88rem] h-[159.44rem] text-center text-[2.5rem] text-text-color font-h6 md:w-[70rem] md:flex md:flex-col md:items-start md:justify-start md:text-left md:text-[1.5rem] ">
-      <div className="relative top-[15.57rem] left-[calc(50%_-_165px)] w-[20.63rem] flex flex-col items-center justify-center py-[2.81rem] px-[0rem] box-border gap-[3rem] md:absolute md:top-[9rem] md:left-[calc(50%_-_525px)]   md:py-[7rem]  ">
-        <div className="w-[19.38rem] flex flex-col items-center justify-center">
-          <div className="w-[22.81rem] flex flex-col items-center justify-center gap-[0.63rem] px-[4.81rem]">
+    <div className="ml-[6.19rem] bg-gray-100 w-[25.88rem] h-[159.44rem] text-center text-[2.5rem] text-text-color font-h6 md:w-[90rem] md:h-[72.63rem] md:text-left md:mb-[16rem] ">
+      <div className="relative top-[15.57rem] left-[calc(50%_-_165px)] w-[20.63rem] flex flex-col items-center justify-center py-[2.81rem] px-[0rem] box-border gap-[3rem] md:absolute md:top-[0rem] md:left-[calc(50%_-_525px)] md:w-[65.63rem]  md:justify-start md:py-[22.19rem]">
+        <div className="w-[19.38rem] flex flex-col items-center justify-center ">
+          <div className="w-[22.81rem] flex flex-col items-center justify-center gap-[0.63rem] px-[4.81rem] md:w-[39.06rem] md:justify-start ">
             <div className="relative tracking-[0.2px] leading-[3.13rem] text-center">
               Pricing
             </div>
@@ -49,7 +49,7 @@ const PricingPage = () => {
           />
         </div>
 
-        <div className="flex flex-col items-end justify-start gap-[1.88rem] text-[0.88rem]">
+        <div className="flex flex-col items-end justify-start gap-[1.88rem] text-[0.88rem] md:flex-row">
           <MonthlyCard
             planType="FREE"
             cardText="Organize across all 
