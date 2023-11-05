@@ -17,6 +17,20 @@ const FloatingCard = () => {
             alt=""
             src="/src/assets/images/clear-single-product.png"
           />
+          {/* updated chair section */}
+          <div className={styles.carouselIndicators}>
+            
+            <img
+              src="/src/assets/images/single-product2.png"
+              alt=""
+            />
+            <img
+              src="/src/assets/images/single-product.png"
+              alt=""
+            />
+          </div>
+
+          {/* floating phone part */}
           <div className={styles.colMd6}>
             <div className={styles.h4}>Floating Phone</div>
             <div className={styles.starsParent}>
@@ -60,7 +74,7 @@ const FloatingCard = () => {
               </button>
               <MdOutlineFavoriteBorder className={styles.likeIcon} />
               <BsCart className={styles.likeIcon} />
-              <IoEyeSharp className={styles.likeIcon}/>
+              <IoEyeSharp className={styles.likeIcon} />
             </div>
           </div>
         </div>

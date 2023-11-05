@@ -206,4 +206,12 @@
     color: #252b42;
     font-family: Montserrat;
   }
+  .carouselIndicators{
+    height: 75px;
+  left: 0;
+  position: absolute;
+  top: 471px;
+  width: 219px;
+  }
+
   

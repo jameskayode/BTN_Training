@@ -1,71 +1,141 @@
-import MonthlyCard from './MonthlyCard';
-import TexttrueIconfalseRounded from './TexttrueIconfalseRounded';
+import React from "react";
+import MonthlyCard from "./MonthlyCard";
+import TexttrueIconfalseRounded from "./TexttrueIconfalseRounded";
+import { LiaToggleOffSolid } from "react-icons/lia";
+import { IoIosCheckmarkCircleOutline, IoCheckmarkCircle } from "react-icons/io5";
 
 const PricingPage = () => {
   return (
-    <div>
-      <MonthlyCard
-        planType="FREE"
-        carPricePriceValue="0"
-        statusIconClass="/icncircle-circlexs-secondarycolor1.svg"
-        circleIconClass="/icncircle-circlexs-secondarycolor11.svg"
-        circleIconClassSecondaryC="/icncircle-circlexs-secondarycolor12.svg"
-        circleIconClassMute9Circl="/icncircle-circlexs-mute.svg"
-        circleIconClassMute10="/icncircle-circlexs-mute1.svg"
-      />
-      <MonthlyCard
-        planType="STANDARD"
-        carPricePriceValue="9.99"
-        statusIconClass="/icncircle-circlexs-secondarycolor13.svg"
-        circleIconClass="/icncircle-circlexs-secondarycolor14.svg"
-        circleIconClassSecondaryC="/icncircle-circlexs-secondarycolor15.svg"
-        circleIconClassMute9Circl="/icncircle-circlexs-mute2.svg"
-        circleIconClassMute10="/icncircle-circlexs-mute3.svg"
-        propWidth="20.56rem"
-        propBackgroundColor="#252b42"
-        propPadding="5rem 2.5rem"
-        propWidth1="20.94rem"
-        propColor="#fff"
-        propColor1="#fff"
-        propColor2="#fff"
-        propColor3="#fff"
-        propColor4="#fff"
-        propColor5="#fff"
-        propColor6="#fff"
-      />
-      <MonthlyCard
-        planType="PREMIUM"
-        carPricePriceValue="19.99"
-        statusIconClass="/icncircle-circlexs-secondarycolor16.svg"
-        circleIconClass="/icncircle-circlexs-secondarycolor17.svg"
-        circleIconClassSecondaryC="/icncircle-circlexs-secondarycolor18.svg"
-        circleIconClassMute9Circl="/icncircle-circlexs-mute4.svg"
-        circleIconClassMute10="/icncircle-circlexs-mute5.svg"
-        propWidth="20.56rem"
-        propBackgroundColor="#fff"
-        propPadding="3.13rem 2.5rem"
-        propWidth1="20.5rem"
-        propColor="#252b42"
-        propColor1="#737373"
-        propColor2="#252b42"
-        propColor3="#252b42"
-        propColor4="#252b42"
-        propColor5="#252b42"
-        propColor6="#252b42"
-      />
-      <TexttrueIconfalseRounded
-        h6="Save 25%"
-        texttrueIconfalseRoundedBackgroundColor="#b2e3ff"
-        texttrueIconfalseRoundedPadding="0.63rem 1.25rem"
-        h6FontSize="0.88rem"
-        h6LineHeight="1.5rem"
-        h6Color="#23a6f0"
-      />
+    <div className="relative bg-gray-100 w-[25.88rem] h-[159.44rem] text-center text-[2.5rem] text-text-color font-h6">
+      <div className="relative top-[15.57rem] left-[calc(50%_-_165px)] w-[20.63rem] flex flex-col items-center justify-center py-[2.81rem] px-[0rem] box-border gap-[3rem]">
+        <div className="w-[19.38rem] flex flex-col items-center justify-center">
+          <div className="w-[22.81rem] flex flex-col items-center justify-center gap-[0.63rem] px-[4.81rem]">
+            <div className="relative tracking-[0.2px] leading-[3.13rem] text-center">
+              Pricing
+            </div>
+            <div className="relative text-[0.88rem] tracking-[0.2px] leading-[1.25rem] text-second-text-color text-center">
+              <span>
+                Problems trying to resolve the conflict between the two major
+                realms of Classical physics: Newtonian mechanics
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* switch side */}
+
+        <div className="flex flex-row items-center justify-start gap-[1rem] text-[1rem]">
+          <div className="relative w-[11.63rem] h-[1.75rem]">
+            <b className="absolute top-[0rem] left-[0rem] tracking-[0.1px] leading-[1.5rem]">
+              Monthly
+            </b>
+            <LiaToggleOffSolid
+              className="absolute top-[0.06rem] left-[5rem] rounded-2xl w-[2.81rem] h-[1.56rem]"
+              style={{ fill: "#fff", stroke: "#23A6F0", strokeWidth: "1px" }}
+            />
+            <b className="absolute top-[0rem] left-[8.44rem] tracking-[0.1px] leading-[1.5rem]">
+              Yearly
+            </b>
+          </div>
+
+          <TexttrueIconfalseRounded
+            h6="Save 25%"
+            texttrueIconfalseRoundedBackgroundColor="#b2e3ff"
+            texttrueIconfalseRoundedPadding="0.63rem 1.25rem"
+            h6FontSize="0.88rem"
+            h6LineHeight="1.5rem"
+            h6Color="#23a6f0"
+            borderRadius="2.31rem"
+          />
+        </div>
+
+        <div className="flex flex-col items-end justify-start gap-[1.88rem] text-[0.88rem]">
+          <MonthlyCard
+            planType="FREE"
+            cardText="Organize across all 
+            apps by hand"
+            carPricePriceValue="0"
+            statusIconClass={
+              <IoIosCheckmarkCircleOutline
+                style={{
+                  backgroundColor: "#2DC071",
+                  borderRadius: "50%",
+                  width: "2rem",
+                  height: "2rem",
+                }}
+              />
+            }
+            circleIconClass={<IoCheckmarkCircle />}
+            circleIconClassSecondaryC={<IoCheckmarkCircle />}
+            circleIconClassMute9Circl={<IoCheckmarkCircle />}
+            circleIconClassMute10={<IoCheckmarkCircle />}
+          />
+          <MonthlyCard
+            planType="STANDARD"
+            carPricePriceValue="9.99"
+            cardText="Organize across all 
+            apps by hand"
+            statusIconClass={
+              <IoIosCheckmarkCircleOutline
+                style={{
+                  backgroundColor: "#2DC071",
+                  borderRadius: "50%",
+                  width: "2rem",
+                  height: "2rem",
+                }}
+              />
+            }
+            circleIconClass={
+              <IoIosCheckmarkCircleOutline
+                style={{
+                  backgroundColor: "#BDBDBD",
+                  borderRadius: "50%",
+                  width: "2rem",
+                  height: "2rem",
+                }}
+              />
+            }
+            // circleIconClassSecondaryC={<IoCheckmarkCircle />}
+            // circleIconClassMute9Circl={<IoCheckmarkCircle />}
+            // circleIconClassMute10={<IoCheckmarkCircle />}
+            propWidth="20.56rem"
+            propBackgroundColor="#252b42"
+            propPadding="5rem 2.5rem"
+            propWidth1="20.94rem"
+            propColor="#fff"
+            propColor1="#fff"
+            propColor2="#fff"
+            propColor3="#fff"
+            propColor4="#fff"
+            propColor5="#fff"
+            propColor6="#fff"
+          />
+          <MonthlyCard
+            planType="PREMIUM"
+            cardText="Organize across all 
+            apps by hand"
+            carPricePriceValue="19.99"
+            statusIconClass={<IoIosCheckmarkCircleOutline />}
+            circleIconClass={<IoCheckmarkCircle />}
+            circleIconClassSecondaryC={<IoCheckmarkCircle />}
+            circleIconClassMute9Circl={<IoCheckmarkCircle />}
+            circleIconClassMute10={<IoCheckmarkCircle />}
+            propWidth="20.56rem"
+            propBackgroundColor="#fff"
+            propPadding="3.13rem 2.5rem"
+            propWidth1="20.5rem"
+            propColor="#252b42"
+            propColor1="#737373"
+            propColor2="#252b42"
+            propColor3="#252b42"
+            propColor4="#252b42"
+            propColor5="#252b42"
+            propColor6="#252b42"
+          />
+        </div>
+      </div>
     </div>
   );
 };
 
 export default PricingPage;
-import React from 'react'
-
-
