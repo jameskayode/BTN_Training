@@ -2,7 +2,7 @@ import React from "react";
 import MonthlyCard from "./MonthlyCard";
 import TexttrueIconfalseRounded from "./TexttrueIconfalseRounded";
 import { LiaToggleOffSolid } from "react-icons/lia";
-import { IoIosCheckmarkCircleOutline, IoCheckmarkCircle } from "react-icons/io5";
+import { IoCheckmarkCircleOutline, IoCheckmarkCircle } from "react-icons/io5";
 
 const PricingPage = () => {
   return (
@@ -55,82 +55,54 @@ const PricingPage = () => {
             cardText="Organize across all 
             apps by hand"
             carPricePriceValue="0"
-            statusIconClass={
-              <IoIosCheckmarkCircleOutline
-                style={{
-                  backgroundColor: "#2DC071",
-                  borderRadius: "50%",
-                  width: "2rem",
-                  height: "2rem",
-                }}
-              />
-            }
-            circleIconClass={<IoCheckmarkCircle />}
-            circleIconClassSecondaryC={<IoCheckmarkCircle />}
-            circleIconClassMute9Circl={<IoCheckmarkCircle />}
-            circleIconClassMute10={<IoCheckmarkCircle />}
+            statusIconClass={<IoCheckmarkCircleOutline style={{ backgroundColor: "#2DC071", borderRadius: "50%", width: "2rem", height: "2rem" }} />}
+          circleIconClass={<IoCheckmarkCircleOutline style={{ backgroundColor: "#2DC071", borderRadius: "50%", width: "2rem", height: "2rem" }} />}
+          circleIconClassSecondaryC={<IoCheckmarkCircleOutline style={{ backgroundColor: "#2DC071", borderRadius: "50%", width: "2rem", height: "2rem" }} />}
+          circleIconClassMute9Circl={<IoCheckmarkCircleOutline style={{ backgroundColor: "#BDBDBD", borderRadius: "50%", width: "2rem", height: "2rem" }} />}
+          circleIconClassMute10={<IoCheckmarkCircleOutline style={{ backgroundColor: "#BDBDBD", borderRadius: "50%", width: "2rem", height: "2rem" }} />}
           />
+          
+
+          {/* standard card */}
           <MonthlyCard
             planType="STANDARD"
             carPricePriceValue="9.99"
             cardText="Organize across all 
             apps by hand"
-            statusIconClass={
-              <IoIosCheckmarkCircleOutline
-                style={{
-                  backgroundColor: "#2DC071",
-                  borderRadius: "50%",
-                  width: "2rem",
-                  height: "2rem",
-                }}
-              />
-            }
-            circleIconClass={
-              <IoIosCheckmarkCircleOutline
-                style={{
-                  backgroundColor: "#BDBDBD",
-                  borderRadius: "50%",
-                  width: "2rem",
-                  height: "2rem",
-                }}
-              />
-            }
-            // circleIconClassSecondaryC={<IoCheckmarkCircle />}
-            // circleIconClassMute9Circl={<IoCheckmarkCircle />}
-            // circleIconClassMute10={<IoCheckmarkCircle />}
+            statusIconClass={<IoCheckmarkCircleOutline style={{ backgroundColor:"#2DC071", borderRadius: "50%", width: "2rem", height: "2rem" }} />}
+            circleIconClass={<IoCheckmarkCircleOutline style={{ backgroundColor: "#2DC071", borderRadius: "50%", width: "2rem", height: "2rem" }} />}
+            circleIconClassSecondaryC={<IoCheckmarkCircleOutline style={{ backgroundColor: "#2DC071", borderRadius: "50%", width: "2rem", height: "2rem" }} />}
+            circleIconClassMute9Circl={<IoCheckmarkCircleOutline style={{ backgroundColor: "#BDBDBD", borderRadius: "50%", width: "2rem", height: "2rem" }} />}
+            circleIconClassMute10={<IoCheckmarkCircleOutline style={{ backgroundColor: "#BDBDBD", borderRadius: "50%", width: "2rem", height: "2rem" }} />}
             propWidth="20.56rem"
             propBackgroundColor="#252b42"
+            textColor="white"
             propPadding="5rem 2.5rem"
             propWidth1="20.94rem"
             propColor="#fff"
-            propColor1="#fff"
-            propColor2="#fff"
-            propColor3="#fff"
-            propColor4="#fff"
-            propColor5="#fff"
-            propColor6="#fff"
+           
           />
+
+
+
+
+
           <MonthlyCard
             planType="PREMIUM"
             cardText="Organize across all 
             apps by hand"
             carPricePriceValue="19.99"
-            statusIconClass={<IoIosCheckmarkCircleOutline />}
-            circleIconClass={<IoCheckmarkCircle />}
-            circleIconClassSecondaryC={<IoCheckmarkCircle />}
-            circleIconClassMute9Circl={<IoCheckmarkCircle />}
-            circleIconClassMute10={<IoCheckmarkCircle />}
+            statusIconClass={<IoCheckmarkCircleOutline style={{ backgroundColor: "#2DC071", borderRadius: "50%", width: "2rem", height: "2rem" }} />}
+            circleIconClass={<IoCheckmarkCircleOutline style={{ backgroundColor: "#2DC071", borderRadius: "50%", width: "2rem", height: "2rem" }} />}
+            circleIconClassSecondaryC={<IoCheckmarkCircleOutline style={{ backgroundColor: "#2DC071", borderRadius: "50%", width: "2rem", height: "2rem" }} />}
+            circleIconClassMute9Circl={<IoCheckmarkCircleOutline style={{ backgroundColor: "#BDBDBD", borderRadius: "50%", width: "2rem", height: "2rem" }} />}
+            circleIconClassMute10={<IoCheckmarkCircleOutline style={{ backgroundColor: "#BDBDBD", borderRadius: "50%", width: "2rem", height: "2rem" }} />}
             propWidth="20.56rem"
             propBackgroundColor="#fff"
             propPadding="3.13rem 2.5rem"
             propWidth1="20.5rem"
             propColor="#252b42"
-            propColor1="#737373"
-            propColor2="#252b42"
-            propColor3="#252b42"
-            propColor4="#252b42"
-            propColor5="#252b42"
-            propColor6="#252b42"
+           
           />
         </div>
       </div>

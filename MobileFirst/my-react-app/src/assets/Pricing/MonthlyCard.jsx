@@ -5,11 +5,13 @@ const MonthlyCard = ({
   cardText,
   carPricePriceValue,
   propWidth,
+  textColor, 
   propBackgroundColor,
   propPadding,
   propColor,
   statusIconClass,
-  circleIconClass
+  circleIconClass,
+  circleIconClassMute9Circl,
 }) => {
   // const [isToggled, setIsToggled] = useState(false);
 
@@ -26,6 +28,7 @@ const MonthlyCard = ({
         style={{
           width: propWidth,
           backgroundColor: propBackgroundColor,
+          textColor:textColor,
           padding: propPadding,
         }}
       >
@@ -75,14 +78,14 @@ const MonthlyCard = ({
             </b>
           </div>
           <div className=" flex flex-row items-center justify-start gap-[0.63rem]">
-            {statusIconClass}
+          {circleIconClassMute9Circl}
 
             <b className="relative tracking-[0.2px] leading-[1.5rem] inline-block w-[12.81rem] h-[1.83rem] shrink-0">
               1GB Cloud storage
             </b>
           </div>
           <div className=" flex flex-row items-center justify-start gap-[0.63rem]">
-            {statusIconClass}
+          {circleIconClassMute9Circl}
 
             <b className="relative tracking-[0.2px] leading-[1.5rem] inline-block w-[12.81rem] h-[1.83rem] shrink-0">
               Email and community support
