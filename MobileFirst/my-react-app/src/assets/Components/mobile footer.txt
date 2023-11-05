@@ -1,0 +1,97 @@
+import { divData } from "../../assets/utils/mockData";
+
+const NewFooter = () => {
+  return (
+    <>
+      <div className="flex ml-[2.8rem] max-w-[25.9rem] justify-center  items-center bg-[#FFF] md:max-w-[90rem] md:px-[12.19rem]  pb-[0.125rem] md:h-[66.94rem] md:mb-[5rem]">
+        <div className="flex max-w-[20.0625rem] py-[4.375rem]  items-start md:flex-row md:w-[100.025rem] md:mr-[29rem] ">
+
+          <div className="flex flex-col items-start gap-[1.88rem]  md:py-[0rem] md:flex-row md:items-start lg:w-[100rem]" >
+            <div className="max-w-[9.25rem] ">
+              <h5 className="text-[#252B42] text-base letter-spacing-[0.00625rem] font-bold tracking-[0.00625rem] mb-[1.25rem] ">
+                {divData.companyInfo.title}
+              </h5>
+
+              <div className="flex gap-[1.25rem] flex-col text-[0.875rem] text-[#737373] md:gap-[0.625rem]">
+                {divData.companyInfo.links.map((link, index) => (
+                  <div className="link" key={index}>
+                    {link}
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="max-w-[9.25rem]">
+              <h5 className="text-[#252B42] text-base letter-spacing-[0.00625rem] font-bold tracking-[0.00625rem] mb-[1.25rem]">
+                {divData.legal.title}
+              </h5>
+              <div className="flex gap-[1.25rem] flex-col text-[0.875rem] text-[#737373] md:gap-[0.625rem]">
+                {divData.legal.links.map((link, index) => (
+                  <div className="link" key={index}>
+                    {link}
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="max-w-[9.25rem]">
+              <h5 className="text-[#252B42] text-base letter-spacing-[0.00625rem] font-bold tracking-[0.00625rem] mb-[1.25rem] ">
+                {divData.features.title}
+              </h5>
+              <div className="flex gap-[1.25rem] flex-col text-[0.875rem] text-[#737373] md:gap-[0.625rem] ">
+                {divData.features.links.map((link, index) => (
+                  <div className="link" key={index}>
+                    {link}
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="max-w-[9.25rem]">
+              <h5 className="text-[#252B42] text-base letter-spacing-[0.00625rem] font-bold tracking-[0.00625rem] mb-[1.25rem]">
+                {divData.resources.title}
+              </h5>
+              <div className="flex gap-[1.25rem] flex-col text-[0.875rem] text-[#737373] md:gap-[0.625rem]">
+                {divData.resources.links.map((link, index) => (
+                  <div className="link" key={index}>
+                    {link}
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="w-[20.0625rem] flex flex-col items-start gap-[1.25rem] md:w-[10rem]">
+              <h5 className="text-[#252B42] text-base letter-spacing-[0.00625rem] font-bold tracking-[0.00625rem] mb-[0.135rem] font-Montserrat md:gap-[0.625rem]">
+                {divData.getInTouch.title}
+              </h5>
+
+              <div className="max-w-[20rem] max-h-[5.625rem] flex flex-row items-center py-[0.94rem] border-rounded-md flex-wrap ">
+                <input
+                  type="email"
+                  name=""
+                  id=""
+                  placeholder="Your Email"
+                  className="text-[#737373] font-normal text-[0.975rem] leading-7 h-[3.75rem] "
+                />
+
+                <button className="flex  py-[0.9375rem] px-[1.40625rem] justify-center items-center  bg-[#23A6F0] rounded-md border-solid border-[#E6E6E6] w-[5remrem] h-[4rem] text-[0.875rem] text-white bg-none">
+                  {divData.getInTouch.buttonText}
+                </button>
+                <span className="">{divData.getInTouch.description}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div className="flex max-w-[25.875rem] flex-col py-[1.56rem] px-0 shrink-0 items-center">
+        <div className=" items-center w-[12.0625rem] h-[3rem] mx-[6.8rem]">
+          <span className="text-[#737373] text-[0.875rem] text-center font-bold flex items-center ">
+            Made With Love By Finland All Right Reserved
+          </span>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default NewFooter;
+
+

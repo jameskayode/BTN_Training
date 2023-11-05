@@ -1,0 +1,61 @@
+/* custom-styles.css */
+:root {
+    --font-family: 'Montserrat', sans-serif;
+    --line-height: 1.25rem;
+    --font-weight: 400;
+    --letter-spacing: 0.0125rem;
+    --dark-background-color: #252B42;
+    --light-text-color: #FFF;
+    --text-color: #252B42;
+    --second-text-color: #737373;
+    --primary-color: #23A6F0;
+    --light-text-gray-1: #FAFAFA;
+    --muted-color: #BDBDBD;
+    --success-color: #2DC071;
+    --secondary-color-1: #23856D;
+    --alert-color: #E77C40;
+    scroll-behavior: smooth;
+    --danger-color: #E74040;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.9375rem;
+    border-radius: 0.3125rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+    outline: none;
+    border: none;
+  }
+  
+  .btn-large {
+    padding: 0.9375rem 2.5625rem;
+  }
+  
+  .btn-primary {
+    background: var(--primary-color);
+    color: var(--light-text-color);
+  }
+  
+  .btn-secondary {
+    background: var(--primary-color);
+    color: var(--light-text-gray-1);
+    border: 1px solid var(--light-text-gray-1);
+  }
+  
+  .btn-mid {
+    padding: 0.9375rem 1.5625rem;
+  }
+  
+  .btn-large:hover {
+    background: var(--primary-color);
+  }
+  

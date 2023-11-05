@@ -1,6 +1,5 @@
 
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"; 
-import { IconContext } from "react-icons"; 
 
 const Team = () => {
   const teamMembers = [
@@ -39,43 +38,33 @@ const Team = () => {
 
   return (
     <div className="team-section">
-            <div className="team-content">
-                <h2> Meet Our Team</h2>
-              
-                <p>
-                  Problems trying to resolve the conflict between the two major
-                  realms of Classical physics: Newtonian mechanics
-                </p>
-            
-        <div className="container5">
-         
-            {teamMembers.map((member, index) => (
-              <div className="col-md-4" key={index}>
-                <div className="card-item">
-                  <div className="media">
-                    <img className="user1-icon" alt="" src={member.image} />
-                  </div>
-                  <div className="card-content">
-                    <b className="h5-team">{member.name}</b>
-                    <b className="h6-team">{member.profession}</b>
-                    <div className="social-media">
-                      <IconContext.Provider
-                        value={{
-                          color: "blue", 
-                          size: "1.5rem", 
-                        }}
-                      >
-                        <FaFacebook />
-                        <FaInstagram />
-                        <FaTwitter />
-                      </IconContext.Provider>
-                    </div>
-                  </div>
+      <div className="team-content lg:max-w-[37.9375rem] lg:items-center lg:gap-[0.625rem]">
+        <h2> Meet Our Team</h2>
+
+        <p>
+          Problems trying to resolve the conflict between the two major realms
+          of Classical physics: Newtonian mechanics
+        </p>
+      </div>
+      <div className="container5">
+        {teamMembers.map((member, index) => (
+          <div className="col-md-4" key={index}>
+            <div className="card-item">
+              <div className="media">
+                <img className="user1-icon" alt="" src={member.image} />
+              </div>
+              <div className="card-content">
+                <b className="h5-team">{member.name}</b>
+                <b className="h6-team">{member.profession}</b>
+                <div className="social-media">
+                  <FaFacebook className="text-[#335BF5] w-10 h-8 md:text-[#23A6F0]" />
+                  <FaInstagram className="text-[#E61F5A] w-10 h-8 md:text-[#23A6F0]" />
+                  <FaTwitter className="text-[#335BF5] w-10 h-8 md:text-[#23A6F0]" />
                 </div>
               </div>
-            ))}
+            </div>
           </div>
-       
+        ))}
       </div>
     </div>
   );
