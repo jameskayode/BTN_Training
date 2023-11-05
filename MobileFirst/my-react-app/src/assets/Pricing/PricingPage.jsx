@@ -2,12 +2,12 @@ import React from "react";
 import MonthlyCard from "./MonthlyCard";
 import TexttrueIconfalseRounded from "./TexttrueIconfalseRounded";
 import { LiaToggleOffSolid } from "react-icons/lia";
-import { IoCheckmarkCircleOutline, IoCheckmarkCircle } from "react-icons/io5";
+import { IoCheckmarkCircleOutline } from "react-icons/io5";
 
 const PricingPage = () => {
   return (
-    <div className="relative bg-gray-100 w-[25.88rem] h-[159.44rem] text-center text-[2.5rem] text-text-color font-h6">
-      <div className="relative top-[15.57rem] left-[calc(50%_-_165px)] w-[20.63rem] flex flex-col items-center justify-center py-[2.81rem] px-[0rem] box-border gap-[3rem]">
+    <div className="relative bg-gray-100 w-[25.88rem] h-[159.44rem] text-center text-[2.5rem] text-text-color font-h6 md:w-[70rem] md:flex md:flex-col md:items-start md:justify-start md:text-left md:text-[1.5rem] ">
+      <div className="relative top-[15.57rem] left-[calc(50%_-_165px)] w-[20.63rem] flex flex-col items-center justify-center py-[2.81rem] px-[0rem] box-border gap-[3rem] md:absolute md:top-[9rem] md:left-[calc(50%_-_525px)]   md:py-[7rem]  ">
         <div className="w-[19.38rem] flex flex-col items-center justify-center">
           <div className="w-[22.81rem] flex flex-col items-center justify-center gap-[0.63rem] px-[4.81rem]">
             <div className="relative tracking-[0.2px] leading-[3.13rem] text-center">
@@ -69,6 +69,7 @@ const PricingPage = () => {
             carPricePriceValue="9.99"
             cardText="Organize across all 
             apps by hand"
+        
             statusIconClass={<IoCheckmarkCircleOutline style={{ backgroundColor:"#2DC071", borderRadius: "50%", width: "2rem", height: "2rem" }} />}
             circleIconClass={<IoCheckmarkCircleOutline style={{ backgroundColor: "#2DC071", borderRadius: "50%", width: "2rem", height: "2rem" }} />}
             circleIconClassSecondaryC={<IoCheckmarkCircleOutline style={{ backgroundColor: "#2DC071", borderRadius: "50%", width: "2rem", height: "2rem" }} />}
@@ -76,10 +77,11 @@ const PricingPage = () => {
             circleIconClassMute10={<IoCheckmarkCircleOutline style={{ backgroundColor: "#BDBDBD", borderRadius: "50%", width: "2rem", height: "2rem" }} />}
             propWidth="20.56rem"
             propBackgroundColor="#252b42"
-            textColor="white"
+           
             propPadding="5rem 2.5rem"
             propWidth1="20.94rem"
             propColor="#fff"
+            
            
           />
 

@@ -5,7 +5,6 @@ const MonthlyCard = ({
   cardText,
   carPricePriceValue,
   propWidth,
-  textColor, 
   propBackgroundColor,
   propPadding,
   propColor,
@@ -28,12 +27,12 @@ const MonthlyCard = ({
         style={{
           width: propWidth,
           backgroundColor: propBackgroundColor,
-          textColor:textColor,
           padding: propPadding,
+          color: propColor,
         }}
       >
         <div
-          className="relative text-[1.5rem] tracking-[0.1px] leading-[2rem] font-bold"
+          className=" text-[1.5rem] tracking-[0.1px] leading-[2rem] font-bold"
           style={{ color: propColor }}
         >
           {planType}
@@ -49,7 +48,7 @@ const MonthlyCard = ({
           <div className="flex flex-col items-start justify-start text-[1.5rem]">
             <b className="relative tracking-[0.1px] leading-[2rem]">$</b>
 
-            <div className="relative text-[0.88rem] tracking-[0.2px] leading-[1.5rem]  text-disabled-element-color">
+            <div className="relative text-[0.88rem] tracking-[0.2px] leading-[1.5rem]  ">
               Per Month
             </div>
           </div>
@@ -59,37 +58,45 @@ const MonthlyCard = ({
           <div className=" flex flex-row items-center justify-start gap-[0.63rem]">
             {statusIconClass}
 
-            <b className="relative tracking-[0.2px] leading-[1.5rem] inline-block w-[12.81rem] h-[1.83rem] shrink-0">
+            <b
+              className="relative tracking-[0.2px] leading-[1.5rem] inline-block w-[12.81rem] h-[1.83rem] 
+            style={{ color: propColor }}"
+            >
               Unlimited product updates
             </b>
           </div>
           <div className=" flex flex-row items-center justify-start gap-[0.63rem]">
-            { circleIconClass}
+            {circleIconClass}
 
-            <b className="relative tracking-[0.2px] leading-[1.5rem] inline-block w-[12.81rem] h-[1.83rem] shrink-0">
+            <b className="relative tracking-[0.2px] leading-[1.5rem] inline-block w-[12.81rem] h-[1.83rem] ">
               Unlimited product updates
             </b>
           </div>
           <div className=" flex flex-row items-center justify-start gap-[0.63rem]">
             {statusIconClass}
 
-            <b className="relative tracking-[0.2px] leading-[1.5rem] inline-block w-[12.81rem] h-[1.83rem] shrink-0">
+            <b className="relative tracking-[0.2px] leading-[1.5rem] inline-block w-[12.81rem] h-[1.83rem] ">
               Unlimited product updates
             </b>
           </div>
           <div className=" flex flex-row items-center justify-start gap-[0.63rem]">
-          {circleIconClassMute9Circl}
+            {circleIconClassMute9Circl}
 
-            <b className="relative tracking-[0.2px] leading-[1.5rem] inline-block w-[12.81rem] h-[1.83rem] shrink-0">
+            <b className="relative tracking-[0.2px] leading-[1.5rem] inline-block w-[12.81rem] h-[1.83rem] ">
               1GB Cloud storage
             </b>
           </div>
           <div className=" flex flex-row items-center justify-start gap-[0.63rem]">
-          {circleIconClassMute9Circl}
+            {circleIconClassMute9Circl}
 
-            <b className="relative tracking-[0.2px] leading-[1.5rem] inline-block w-[12.81rem] h-[1.83rem] shrink-0">
+            <b className="relative tracking-[0.2px] leading-[1.5rem] inline-block w-[12.81rem] h-[1.83rem] ">
               Email and community support
             </b>
+          </div>
+        </div>
+        <div className="rounded-8xs bg-primary-color w-[15.38rem] overflow-hidden flex flex-col items-center justify-start py-[0.94rem] px-[2.5rem] box-border text-light-text-color">
+          <div className="relative tracking-[0.2px] leading-[1.38rem]">
+            Try for free
           </div>
         </div>
       </div>
