@@ -2,7 +2,7 @@ import React from 'react'
 
 const PricingCardForm = () => {
   return (
-    <div className="absolute top-[38.5rem] left-[calc(50%_-_208px)] w-[25.88rem] overflow-hidden flex flex-col items-start justify-start text-center text-[1rem] text-text-color font-h6 md:text-[2.5rem] md:text-left md:w-[90rem] md:h-[72.63rem] md:relative md:top-[0.81rem]">
+<div className="ml-[8rem] mt-[5.25rem] flex flex-col items-start justify-start text-center text-[1rem] text-text-color font-h6 md:text-[2.5rem] md:text-left md:w-[90rem] md:h-[72.63rem] mx-auto md:top-[0.81rem] md:ml-[12rem] lg:ml-[25rem]">
       <div className="w-[25.88rem] overflow-hidden flex flex-col items-start justify-start">
         <div className="self-stretch overflow-hidden flex flex-col items-center justify-start gap-[1rem]">
           <h5 className="relative tracking-[0.1px] leading-[1.5rem] text-second-text-color text-[1rem]">

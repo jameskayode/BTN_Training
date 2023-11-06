@@ -12,11 +12,7 @@ const MonthlyCard = ({
   circleIconClass,
   circleIconClassMute9Circl,
 }) => {
-  // const [isToggled, setIsToggled] = useState(false);
-
-  // const toggleCard = () => {
-  //   setIsToggled(!isToggled);
-  // };
+  
 
   return (
     <div

@@ -18,7 +18,7 @@ function App() {
       
           <PricingCardForm/>
           <PricingPage/>
-          <Client showNewH2={false}/> 
+          <Client showNewH2={true}/> 
          
 
       

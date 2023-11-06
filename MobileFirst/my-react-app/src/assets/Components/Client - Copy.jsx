@@ -12,11 +12,11 @@ const Client = ({ showNewH2 }) => {
   const imageSources = [brand01, brand02, brand03, brand04, brand05, brand06];
 
   return (
-    <div className=" pt-[3rem] pl-[9rem] w-[25.88rem] flex flex-col items-center justify-end gap-[1.44rem]  md:justify-center md:pl-[8rem] md:mx-[20rem] md:my-[3rem] md:mb-2 lg:mb-6">
-      <div className="flex flex-col items-center">
-        <div className=" md:max-w-[54rem] flex flex-col items-center gap-[0.575rem] lg:gap-[1.875rem]">
+    <div className="client-section  md:my-0 py-0">
+      <div className="container">
+        <div className="text-content md:max-w-[54rem] flex flex-col items-center gap-[0.575rem] lg:gap-[1.875rem]">
           {showNewH2 ? (
-            <h4 className=" ">Trusted By Over 4000 Big Companies</h4>
+            <h4 className=" mt-[10.72rem]">Trusted By Over 4000 Big Companies</h4>
           ) : (
             <h2>Big Companies Are Here</h2>
           )}
