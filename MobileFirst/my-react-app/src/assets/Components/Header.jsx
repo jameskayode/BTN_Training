@@ -1,10 +1,32 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 import { BsSearch, BsCart, BsArrowRight } from "react-icons/bs";
 import { TbMenuDeep } from "react-icons/tb";
+
 const Header = () => {
+  const navItems = [
+    {
+      href: "/",
+      name: "Home",
+    },
+    {
+      href: "/products",
+      name: "Product",
+    },
+    {
+      href: "/pricing",
+      name: "Pricing",
+    },
+    {
+      href: "/contact",
+      name: "Contact",
+    },
+  ];
+
   return (
     <header>
       <section className="Mobile-nav">
-        <span className="logo">Bandage</span>
+        <span className="logo"><Link to="/">Bandage</Link></span>
         <div className="mobile-icons">
           <BsSearch />
           <BsCart />
@@ -13,15 +35,15 @@ const Header = () => {
       </section>
       <nav>
         <ul>
-          {navITems.map((item) => (
+          {navItems.map((item) => (
             <li key={item.name}>
-              <a href={item.href}>{item.name}</a>
+              <Link to={item.href}>{item.name}</Link>
             </li>
           ))}
         </ul>
       </nav>
       <section className="account">
-        <a href="#">Login</a>
+        <Link to="/login">Login</Link>
         <button className="btn btn-mid btn-primary">
           Become a Member <BsArrowRight />
         </button>
@@ -29,28 +51,5 @@ const Header = () => {
     </header>
   );
 }
-const navITems = [
-  {
-
-    href: "#",
-    name: "Home",
-  },
-  {
-
-    href: "#",
-    name: "Product",
-  },
-  {
-
-    href: "#",
-    name: "Pricing",
-  },
-  {
-
-    href: "#",
-    name: "Contact",
-  },
-
-]
 
 export default Header;
