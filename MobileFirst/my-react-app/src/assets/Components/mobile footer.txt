@@ -95,3 +95,4 @@ const NewFooter = () => {
 export default NewFooter;
 
 
+import Bannner from '../../../../Ecommerce/src/assets/MyComponent/Banner/Bannner'

@@ -15,7 +15,7 @@ const ContainerRow = ({ title, content }) => (
           ))}
         </div>
       </div>
-    </div>
+    </div>  
   </div>
 );
 
