@@ -4,6 +4,43 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-.Cartable{
-    @apply flex flex-col flex-shrink-0 justify-center w-14 h-3.5 text-black font-['Poppins'] text-sm font-semibold leading-[normal]
+.Cartable {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    width: 14rem;
+    height: 3.5rem;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.join {
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+}
+
+.join-item {
+    appearance: none;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 8px 16px;
+    margin: 0;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.join-item:hover {
+    background-color: #f0f0f0;
+}
+
+.join-item:checked {
+    background-color: #4caf50;
+    color: white;
+    border-color: #4caf50;
 }
