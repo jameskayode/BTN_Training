@@ -3,3 +3,7 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.Cartable{
+    @apply flex flex-col flex-shrink-0 justify-center w-14 h-3.5 text-black font-['Poppins'] text-sm font-semibold leading-[normal]
+}

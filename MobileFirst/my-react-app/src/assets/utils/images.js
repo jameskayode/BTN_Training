@@ -39,3 +39,15 @@ export const shopCardData = [
     { imageSrc: f4, title: "CLOTHS", numItems: 5 },
     { imageSrc: f5, title: "CLOTHS", numItems: 5 },
   ];
+
+
+
+export const contactimg = [
+  {
+    loading: "lazy",
+    srcSet: "https://cdn.builder.io/api/v1/image/assets/TEMP/9358c1eb2c96b916977f458724a9044a84d21be67c83c967af8b984d3fde3265?apiKey=fbc477c1e5044fd29b3713f139a88ed9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/9358c1eb2c96b916977f458724a9044a84d21be67c83c967af8b984d3fde3265?apiKey=fbc477c1e5044fd29b3713f139a88ed9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9358c1eb2c96b916977f458724a9044a84d21be67c83c967af8b984d3fde3265?apiKey=fbc477c1e5044fd29b3713f139a88ed9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/9358c1eb2c96b916977f458724a9044a84d21be67c83c967af8b984d3fde3265?apiKey=fbc477c1e5044fd29b3713f139a88ed9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/9358c1eb2c96b916977f458724a9044a84d21be67c83c967af8b984d3fde3265?apiKey=fbc477c1e5044fd29b3713f139a88ed9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9358c1eb2c96b916977f458724a9044a84d21be67c83c967af8b984d3fde3265?apiKey=fbc477c1e5044fd29b3713f139a88ed9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/9358c1eb2c96b916977f458724a9044a84d21be67c83c967af8b984d3fde3265?apiKey=fbc477c1e5044fd29b3713f139a88ed9&width=2000 2000w",
+    className: "aspect-[0.77] object-contain object-center w-full overflow-hidden grow max-md:max-w-full"
+  }
+];
+  
+  

@@ -9,6 +9,7 @@ import ProductPage from '../../../Ecommerce/src/Pages/ProductPage';
 import About from './Pages/About';
 import Pricing from './Pages/Pricing';
 import Carting from './Pages/Carting';
+import Contact from './Pages/Contact';
 // import CartSection from './assets/Cart/CartSection';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/cart" element={<Carting/>} />
+        <Route path="/contact" element={<Contact/>} />
        
       </Routes>
     </Router>

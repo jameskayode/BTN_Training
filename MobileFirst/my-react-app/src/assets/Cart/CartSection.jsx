@@ -1,24 +1,27 @@
 import { IoMdArrowDropup, IoMdArrowDropdown } from "react-icons/io";
-import { useMediaQuery } from 'react-responsive';
+import { useMediaQuery } from "react-responsive";
 
 const Container = () => {
-  const isTabletOrLaptop = useMediaQuery({ query: '(min-width: 768px)' });
+  const isTabletOrLaptop = useMediaQuery({ query: "(min-width: 768px)" });
 
   return (
-    <div className="flex flex-col items-start pb-0">
-    {isTabletOrLaptop && (
-       <div className="flex justify-between items-start w-96 mb-[5rem]">
-      <div className="w-96 h-3.5 flex flex-col">
-        <div className=" flex-shrink-0 justify-center w-52 h-3.5 text-black font-['Poppins'] text-sm font-semibold leading-[normal]">Item</div>
-        <div className="flex flex-col flex-shrink-0 justify-center w-14 h-3.5 text-black font-['Poppins'] text-sm font-semibold leading-[normal]">Price</div>
-        <div className="flex flex-col flex-shrink-0 justify-center w-14 h-3.5 text-black font-['Poppins'] text-sm font-semibold leading-[normal]">Qty </div>
-        <div className="flex flex-col flex-shrink-0 justify-center w-36 h-3.5 text-black font-['Poppins'] text-sm font-semibold leading-[normal]">Subtotal</div>
-      </div>
-      </div>
-    )}
-    
-      <div className=" relative flex flex-wrap justify-between items-center content-center row-gap-2.5 pl-[1.0625rem] pr-[1.0625rem] py-5 px-4 bg-[#f5f7ff] mx-[3rem] w-[25rem] ">
-        <div className="container">
+    <div className="flex flex-col  pb-5 ">
+      {isTabletOrLaptop && (
+        <div className="flex flex-col ml-[20rem] pt-5">
+          <div className="w-96 h-3.5 flex  flex-row justify-between">
+            <div className=" justify-center w-52 h-3.5 text-black font-['Poppins'] text-sm font-semibold leading-[normal] ">
+              Item
+            </div>
+
+            <div className="Cartable">Price</div>
+            <div className="Cartable">Qty </div>
+            <div className="Cartable">Subtotal</div>
+          </div>
+        </div>
+      )}
+
+      <div className=" relative flex flex-col justify-between items-center content-center row-gap-2.5 pl-[1.0625rem] pr-[1.0625rem] py-5 px-4  mx-[3rem] w-[25rem] sm:flex-row-reverse sm:justify-between md:items-start md:flex-row-reverse sm:w-[100%]  md:ml-[10rem] md:gap:[10rem] ">
+        <div className="container md:ml-[50rem] ">
           <div className="w-72 text-black font-['Montserrat'] text-sm font-semibold leading-[normal]">
             Summary
           </div>
@@ -26,7 +29,7 @@ const Container = () => {
             <div className="text-black font-['Montserrat'] text-xs leading-[normal]">
               Estimate Shipping and Tax
             </div>
-            <svg
+            {/* <svg
               width={16}
               height={15}
               viewBox="0 0 16 15"
@@ -39,7 +42,12 @@ const Container = () => {
                 strokeWidth="1.6"
                 strokeLinecap="round"
               />
-            </svg>
+            </svg> */}
+            <IoMdArrowDropup />
+         {active && <div className="w-72 text-[#666] font-['Montserrat'] text-xs leading-[normal] ">
+            Enter your destination to get a shipping estimate.
+          </div>}
+            
           </div>
           <div className="w-72 text-[#666] font-['Montserrat'] text-xs leading-[normal]">
             Enter your destination to get a shipping estimate.
@@ -120,7 +128,10 @@ const Container = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-start gap-[1.88rem] pt-[5rem] ">
+        
+        <div className="flex flex-col items-center justify-start w-[21.56rem] md:h-[10.31rem]">
+         
+        <div className="flex flex-col items-center justify-start gap-[1.88rem] pt-[5rem] md:w-[46.4375rem] md:h-[30.34rem]">
           <div className="relative w-[21.56rem] h-[10.31rem]">
             <img
               className="absolute top-[10.28rem] left-[0.06rem] w-[21.38rem] h-[0.06rem]"
@@ -260,15 +271,34 @@ const Container = () => {
             />
           </div>
 
-          <div className="flex flex-col items-start justify-start">
-            <button className="cursor-pointer [border:none] py-[0.63rem] px-[1.25rem] bg-primary-color rounded-8xs overflow-hidden flex flex-col items-center justify-start">
+          {/* <div className="flex flex-col items-start justify-start sm:flex-row  ">
+            <button className=" hidden cursor-pointer [border:none] py-[0.63rem] px-[1.25rem] bg-primary-color rounded-8xs overflow-hidden md:flex flex-col items-center justify-start sm:py-[2rem] sm:inline-flex  sm:px-[5rem] gap-[2.5rem]">
               <b className="relative text-[0.88rem] tracking-[0.2px] leading-[1.5rem] font-h6 text-light-text-color text-center">
-                Update Shopping cart
-              </b>
+              Continue Shoping              </b>
             </button>
+           
+          </div> */}
+          <div className="flex gap-[2rem]">
+            <div className=" hidden sm:inline-flex flex-col items-center gap-2.5 py-2 px-5 rounded-[0.3125rem]  border-[#23a6f0] border-solid border-[2px] h6 text-[#23a6f0] text-center font-['Montserrat'] text-sm font-bold leading-6 " >
+              Continue Shoping
+            </div>
+            <div className="hidden sm:inline-flex items-start gap-2.5">
+              <div className="flex flex-col items-center gap-2.5 py-2 px-5 rounded-[0.3125rem] bg-[#23a6f0] h6-1 text-white text-center font-['Montserrat'] text-sm font-bold leading-6">
+                Clear Shopping Cart
+              </div>
+            </div>
+            <div className="inline-flex flex-col items-start gap-2.5">
+              <div className="flex flex-col items-center gap-2.5 py-2 px-5 rounded-[0.3125rem] bg-[#23a6f0] h6-2 text-white text-center font-['Montserrat'] text-sm font-bold leading-6">
+                Update Shopping cart
+              </div>
+            </div>
           </div>
         </div>
+        </div>
+
+
       </div>
+     
     </div>
   );
 };

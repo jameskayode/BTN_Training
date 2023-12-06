@@ -1,6 +1,7 @@
 import React from 'react';
 import NavDark from '../../../../Ecommerce/src/assets/MyComponent/Header/DarkNav';
 import LightNav from '../../../../Ecommerce/src/assets/MyComponent/Header/LightNav';
+
 import FooterHead from '../assets/Components/FooterHead';
 import NewFooter from '../assets/Components/NewFooter';
 import Mobile from '../assets/Reuseables/Header/Mobile';
