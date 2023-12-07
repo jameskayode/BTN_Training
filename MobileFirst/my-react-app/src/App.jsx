@@ -19,21 +19,21 @@ function App() {
   return (
 
     
-    // <Router>
-    //   <Routes>
-    //     <Route path="/" element={<Homespage/>} />
-    //     <Route path="/products" element={<ProductListPage />} />
-    //     <Route path="/product/:id" element={<ProductPage />} />
-    //     <Route path="/about" element={<About />} />
-    //     <Route path="/pricing" element={<Pricing />} />
-    //     <Route path="/cart" element={<Carting/>} />
-    //     <Route path="/contact" element={<Contact/>} />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Homespage/>} />
+        <Route path="/products" element={<ProductListPage />} />
+        <Route path="/product/:id" element={<ProductPage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/cart" element={<Carting/>} />
+        <Route path="/contact" element={<Contact/>} />
        
-    //   </Routes>
-    // </Router>
-   <>
-        <CartRender/>
-   </>
+      </Routes>
+    </Router>
+  //  <>
+  //       <CartRender/>
+  //  </>
   
   );
 }
